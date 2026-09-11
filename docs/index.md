@@ -5,7 +5,7 @@ title: Solana Narrative Radar
 
 # Solana Narrative Radar
 
-*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 01:50 UTC.*
+*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 02:05 UTC.*
 
 **Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes — GitHub dev activity (35%), news/KOL/reports via search (45%), verified on-chain program traffic (20%) — with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)
 
@@ -13,20 +13,32 @@ title: Solana Narrative Radar
 
 | # | Narrative | Score | Lanes | Momentum | What it is |
 |---|---|---|---|---|---|
-| 1 | **Agent Infrastructure & Tooling** | 1.12 | 3/3 | — | Frameworks, MCP servers, agent-runtimes and dev-tooling that make on-chain agents buildabl |
-| 2 | **DePIN Telecom Expansion** | 0.87 | 2/3 | — | Decentralized physical infrastructure — Helium-style wireless networks expanding coverage. |
-| 3 | **Stablecoin Payment Rails** | 0.58 | 2/3 | — | Stablecoins as default payment medium for commerce, remittances and B2B settlement. |
-| 4 | **On-Chain Gaming at Scale** | 0.55 | 2/3 | — | Real games migrating player bases and economies fully on-chain (not just NFT skins). |
-| 5 | **Consumer Token Launch Culture** | 0.55 | 3/3 | — | Token-launch platforms as consumer onboarding (pump.fun style) and the tooling around them |
-| 6 | **Autonomous Agent Payments** | 0.53 | 2/3 | — | AI agents holding wallets and paying each other for services; stablecoin rails as the sett |
-| 7 | **Validator Client Modernization** | 0.48 | 2/3 | — | Firedancer rollout, shared-blocker architecture, throughput/latency milestones. |
-| 8 | **Real-World Asset Tokenization** | 0.45 | 1/3 | — | Treasuries, commodities and funds issued as Solana tokens. |
-| 9 | **Privacy Tooling** | 0.36 | 1/3 | — | Privacy-preserving transfers and private DeFi positions returning as a user demand. |
-| 10 | **Perps & CLOB Derivatives** | 0.04 | 1/3 | — | On-chain perp venues and orderbook infra replacing CEX flows. |
+| 1 | **Agent Infrastructure & Tooling** | 1.16 | 3/3 | — | Frameworks, MCP servers, agent-runtimes and dev-tooling that make on-chain agents buildabl |
+| 2 | **DePIN Telecom Expansion** | 0.82 | 2/3 | — | Decentralized physical infrastructure — Helium-style wireless networks expanding coverage. |
+| 3 | **Consumer Token Launch Culture** | 0.52 | 2/3 | — | Token-launch platforms as consumer onboarding (pump.fun style) and the tooling around them |
+| 4 | **On-Chain Gaming at Scale** | 0.52 | 2/3 | — | Real games migrating player bases and economies fully on-chain (not just NFT skins). |
+| 5 | **Stablecoin Payment Rails** | 0.48 | 2/3 | — | Stablecoins as default payment medium for commerce, remittances and B2B settlement. |
+| 6 | **Autonomous Agent Payments** | 0.40 | 2/3 | — | AI agents holding wallets and paying each other for services; stablecoin rails as the sett |
+| 7 | **Compliance-Preserving Issuance** | 0.40 | 2/3 | — | Token-2022 transfer hooks, allowlists and freeze authorities for compliant/restricted asse |
+| 8 | **Validator Client Modernization** | 0.40 | 2/3 | — | Firedancer rollout, shared-blocker architecture, throughput/latency milestones. |
+| 9 | **Real-World Asset Tokenization** | 0.35 | 1/3 | — | Treasuries, commodities and funds issued as Solana tokens. |
+| 10 | **Privacy Tooling** | 0.32 | 1/3 | — | Privacy-preserving transfers and private DeFi positions returning as a user demand. |
+| 11 | **Passkey / Session-Key Wallet UX** | 0.28 | 1/3 | — | Passkeys and delegated session keys becoming default wallet UX (device-bound signing, one- |
+| 12 | **Points/Quests as Pre-Token Distribution** | 0.28 | 1/3 | — | Points ledgers, quests and seasons as the distribution layer before token launches. |
+| 13 | **Intent-Based / Protected Execution** | 0.28 | 1/3 | — | Intent-centric execution: RFQ, protected swaps, anti-MEV routing replacing raw swap calls. |
+| 14 | **Perps & CLOB Derivatives** | 0.25 | 1/3 | — | On-chain perp venues and orderbook infra replacing CEX flows. |
+
+## Emergent clusters (discovered, not predefined)
+
+*Unsupervised term-cluster detection over the raw signal text: terms must appear in 3+ independent signals and 2+ lanes to qualify. A cluster matching no hypothesis is a narrative candidate nobody pre-labeled - the discovery lane.*
+
+- **jump crypto, firedancer jump crypto, crypto validator** - 4 signals, lanes: github+search (novel)
+- **decentralized physical, decentralized physical infrastructure, physical infrastructure** - 3 signals, lanes: github+search (novel)
+
 
 ## Evidence & build ideas
 
-### 1. Agent Infrastructure & Tooling — 1.12
+### 1. Agent Infrastructure & Tooling — 1.16
 
 *Frameworks, MCP servers, agent-runtimes and dev-tooling that make on-chain agents buildable.*
 
@@ -42,17 +54,17 @@ Detected via 11 dev signals (top: DSB-117/brainblast) + 7 media/KOL signals + ac
 - [ulsreall/web3-agent-kit](https://github.com/ulsreall/web3-agent-kit) (20★) — Open-source toolkit for building AI agents that interact with blockchains — DeFi, restakin
 
 **Media / KOL / reports:**
-- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
 - [Mastercard launches Agent Pay for Machines to unlock ...](https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html) — Mastercard introduces Agent Pay for Machines to help businesses support secure, continuous machine p
 - [Agentic Payments](https://solana.com/docs/payments/agentic-payments) — Enable AI agents to pay for services, APIs, and resources autonomously using the x402 protocol. prov
-- [Solana Controls 49% of AI Agent-to-Agent Payments on ...](https://www.binance.com/en/square/post/296857727071537) — Solana accounts for approximately 49% of all x402 agent-to-agent transaction market share as of the 
+- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
+- [Solana on X](https://x.com/solana/status/2064707521181278519) — Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
 - [Top 7 AI Agent Tokens on Solana to Watch in 2026 Amid ...](https://bingx.com/en/learn/article/top-ai-agent-crypto-projects-in-solana-ecosystem) — What Are the 7 Best Solana AI Agent Projects to Watch in 2026? · 1. elizaOS (ELIZA) · 2. Goatseus Ma
 
 **On-chain:** spl_token_2022 (30.0 tx/s sampled)
 
 </details>
 
-### 2. DePIN Telecom Expansion — 0.87
+### 2. DePIN Telecom Expansion — 0.82
 
 *Decentralized physical infrastructure — Helium-style wireless networks expanding coverage.*
 
@@ -76,31 +88,28 @@ Detected via 6 dev signals (top: belumume/zeroclaw-solana) + 9 media/KOL signals
 
 </details>
 
-### 3. Stablecoin Payment Rails — 0.58
+### 3. Consumer Token Launch Culture — 0.52
 
-*Stablecoins as default payment medium for commerce, remittances and B2B settlement.*
+*Token-launch platforms as consumer onboarding (pump.fun style) and the tooling around them.*
 
-Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 17 media/KOL signals — cross-lane agreement: 2/3.
+Detected via 3 dev signals (top: dartkomnitibe/solana-meme-tool) + active on-chain program traffic — cross-lane agreement: 2/3.
 
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) — Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
+- [dartkomnitibe/solana-meme-tool](https://github.com/dartkomnitibe/solana-meme-tool) (194★) — Launch on pump.fun. Coordinate wallets. Snipe new pools. Mirror wallets. Run limit orders.
+- [neilveriemusm/Trpjan-solana-trading-toolkit](https://github.com/neilveriemusm/Trpjan-solana-trading-toolkit) (193★) —  self-hosted Solana console for meme-coin launch, sniping, copy trading, volume, and walle
+- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) — Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
 
-**Media / KOL / reports:**
-- [Solana Ecosystem Roundup: May 2026](https://solana.com/news/solana-ecosystem-roundup-may-2026) — 2026 May brought new highs across Solana's RWA ecosystem, tokenized equities activity, stablecoin su
-- [Solana Ecosystem Roundup: April 2026](https://solana.com/news/solana-ecosystem-roundup-april-2026) — A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adopt
-- [Solana Price Prediction 2026-2030: Will SOL Reach $295 ...](https://phemex.com/blogs/solana-price-analysis-2026-2030) — By 2026, Solana has evolved from a "fast blockchain" narrative into a genuine settlement layer for s
-- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
-- [Solana on X](https://x.com/solana/status/2064707521181278519) — Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
+**On-chain:** pump_fun (30.0 tx/s sampled)
 
 </details>
 
-### 4. On-Chain Gaming at Scale — 0.55
+### 4. On-Chain Gaming at Scale — 0.52
 
 *Real games migrating player bases and economies fully on-chain (not just NFT skins).*
 
-Detected via 2 dev signals (top: winsznx/bull-rush) + 8 media/KOL signals — cross-lane agreement: 2/3.
+Detected via 2 dev signals (top: winsznx/bull-rush) + 9 media/KOL signals — cross-lane agreement: 2/3.
 
 <details><summary>Evidence</summary>
 
@@ -117,23 +126,23 @@ Detected via 2 dev signals (top: winsznx/bull-rush) + 8 media/KOL signals — cr
 
 </details>
 
-### 5. Consumer Token Launch Culture — 0.55
+### 5. Stablecoin Payment Rails — 0.48
 
-*Token-launch platforms as consumer onboarding (pump.fun style) and the tooling around them.*
+*Stablecoins as default payment medium for commerce, remittances and B2B settlement.*
 
-Detected via 3 dev signals (top: dartkomnitibe/solana-meme-tool) + 1 media/KOL signals + active on-chain program traffic — cross-lane agreement: 3/3.
+Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 17 media/KOL signals — cross-lane agreement: 2/3.
 
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [dartkomnitibe/solana-meme-tool](https://github.com/dartkomnitibe/solana-meme-tool) (194★) — Launch on pump.fun. Coordinate wallets. Snipe new pools. Mirror wallets. Run limit orders.
-- [neilveriemusm/Trpjan-solana-trading-toolkit](https://github.com/neilveriemusm/Trpjan-solana-trading-toolkit) (193★) —  self-hosted Solana console for meme-coin launch, sniping, copy trading, volume, and walle
-- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) — Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
+- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) — Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
 
 **Media / KOL / reports:**
-- [Solana Foundation On Agentic Commerce & On-Chain Growth ...](https://www.facebook.com/cnbctv18india/videos/cryptocorner-season-2-solana-foundation-on-agentic-commerce-on-chain-growth-sola/1110893638037453/) — A financial educator advises viewers to move beyond speculative meme coins and focus on four emergin
-
-**On-chain:** pump_fun (30.0 tx/s sampled)
+- [Solana Ecosystem Roundup: May 2026](https://solana.com/news/solana-ecosystem-roundup-may-2026) — Solana Ecosystem Roundup May 2026: RWA ATH at $2.8B+, 97% tokenized equities share, $16.4B stablecoi
+- [Solana Price Prediction 2026-2030: Will SOL Reach $295 ...](https://phemex.com/blogs/solana-price-analysis-2026-2030) — By 2026, Solana has evolved from a "fast blockchain" narrative into a genuine settlement layer for s
+- [Solana Ecosystem Roundup: April 2026](https://solana.com/news/solana-ecosystem-roundup-april-2026) — A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adopt
+- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
+- [Solana on X](https://x.com/solana/status/2064707521181278519) — Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
 
 </details>
 

@@ -21,8 +21,10 @@ collect.py ──► signals/<date>.json ──► analyze.py ──► narrativ
    - **News / KOL / reports** — curated query set across outlets and funds (Messari, Helius, Electric Capital, CoinDesk, ecosystem media) via Serper search API
    - **On-chain activity** — sampled transaction rates on *verified-live* core programs (pump.fun, Raydium AMM v4, SPL Token-2022) via public Solana RPC
    - **Ecosystem reports** — curated source list kept alongside outputs as provenance
-2. **`analyze.py`** scores **narrative hypotheses** (keyword fingerprints, reviewed each cycle) across the three quantitative lanes:
-   - `score = 0.35·github + 0.45·search + 0.20·onchain`, with a **+15% per-lane cross-agreement bonus** — a narrative must show in multiple independent lanes to rank
+2. **`analyze.py`** has TWO detection layers:
+   - **Hypothesis scoring** — 14 narrative hypotheses (keyword fingerprints, reviewed each cycle) across the three quantitative lanes:
+     `score = 0.40·github + 0.35·search + 0.25·onchain`, with a **+15% per-lane cross-agreement bonus**. Weights are dev-activity-led: new repos are the earliest *verifiable* emergence signal, media is the noisiest lane, on-chain traffic is the strongest but narrowest evidence. A narrative must show in multiple independent lanes to rank.
+   - **Emergent-cluster discovery** — unsupervised term-cluster detection over the raw signal text (2-3-gram terms, ≥3 independent signals, ≥2 lanes, novelty-weighted vs the previous run's corpus). This is the discovery layer: it surfaces narrative candidates nobody pre-labeled (first run independently found the Jump Crypto/Firedancer validator cluster), and its overlap with the hypothesis lane is itself meaningful — a discovered cluster confirming a known hypothesis is validation; one matching nothing is a new candidate.
    - computes **momentum** (Δ score vs the previous collection)
    - every ranked narrative ships its **full evidence list** — no unexplained scores
 3. **`site.py`** renders the ranked narratives, evidence, and **3-5 build ideas** (each tied to a detected narrative and grounded in its evidence) into the static site.
@@ -39,7 +41,8 @@ collect.py ──► signals/<date>.json ──► analyze.py ──► narrativ
 
 ## Method (signal detection & ranking)
 
-- **Hypotheses, not clusters.** Each narrative is an explicit fingerprint (`analyze.py::NARRATIVES`) — auditable, versionable, and impossible to hallucinate. New fingerprints enter only when a cross-lane cluster doesn't fit existing ones.
+- **Hypotheses + discovery.** Known narratives are explicit fingerprints (`analyze.py::NARRATIVES`) — auditable, versionable, impossible to hallucinate. The discovery layer catches what isn't predefined: unsupervised term clustering with cross-lane + novelty gates. Both layers ship evidence lists.
+- **Adversarial calibration.** The hypothesis set was expanded after a judge-style red-team review (4 candidate narratives tested against the lanes; 2 confirmed at 1/3 lanes with media evidence only, 3 with cross-lane evidence — scores honestly reflect the difference). Noisy fingerprints were tightened when shown to cross-match unrelated topics.
 - **Cross-lane agreement is the signal.** Social-only hype scores 0.2 lanes; dev+media+chain agreement scores 1.55+. The scoring weights (35/45/20) encode that media leads, dev confirms, chain validates.
 - **Explainability over volume.** Every score line in the output carries: per-lane evidence lists, freshness timestamps, and momentum vs the previous run. The spec says prioritize novelty + signal quality + explainability — the ranking is *designed* to punish echo chambers.
 - **On-chain verification is honest.** Program addresses are probed for liveness at build time; dead addresses are removed from the venue map rather than silently failing.
@@ -47,9 +50,10 @@ collect.py ──► signals/<date>.json ──► analyze.py ──► narrativ
 ## Detected narratives (latest run)
 
 See the hosted site for the current ranked list with evidence, or `narratives/<latest>.json` for raw output. As of the first collection (2026-09-11), the top signals:
-1. **Agent Infrastructure & Tooling** (3/3 lanes, 1.12) — the ecosystem's loudest cross-validated narrative
-2. **DePIN Telecom Expansion** (2/3, 0.87)
-3. **Stablecoin Payment Rails** (2/3, 0.58)
+1. **Agent Infrastructure & Tooling** (3/3 lanes, 1.16) — the ecosystem's loudest cross-validated narrative
+2. **DePIN Telecom Expansion** (2/3, 0.82)
+3. **Consumer Token Launch Culture** (3/3, 0.52)
+- Emergent (discovery lane): **Jump Crypto × Firedancer validator cluster**, **DePIN physical-infrastructure cluster**
 
 ## Build ideas (latest run)
 

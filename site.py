@@ -33,6 +33,15 @@ def site():
     for i, n in enumerate(narrs, 1):
         mom = "—" if n["momentum"] is None else f"{'+' if n['momentum'] >= 0 else ''}{n['momentum']}"
         lines.append(f"| {i} | **{esc(n['name'])}** | {n['score']:.2f} | {n['lanes_present']}/3 | {mom} | {esc(n['what'][:90])} |")
+    # Emergent discovery section (unsupervised lane)
+    disc = d.get("discovered_clusters", [])
+    if disc:
+        lines += ["", "## Emergent clusters (discovered, not predefined)", "",
+                  "*Unsupervised term-cluster detection over the raw signal text: terms must appear in 3+ independent signals and 2+ lanes to qualify. A cluster matching no hypothesis is a narrative candidate nobody pre-labeled - the discovery lane.*", ""]
+        for c in disc:
+            nov = " (novel)" if c.get("any_novel") else ""
+            lines.append(f"- **{', '.join(c['cluster'][:3])}** - {c['docs']} signals, lanes: {'+'.join(c['lanes'])}{nov}")
+        lines.append("")
     lines += ["", "## Evidence & build ideas", ""]
     for i, n in enumerate(narrs[:5], 1):  # top 5 get detail blocks
         lines += [f"### {i}. {n['name']} — {n['score']:.2f}", "", f"*{n['what']}*", "", n["why"], "", "<details><summary>Evidence</summary>", ""]
