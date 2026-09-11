@@ -5,9 +5,9 @@ title: Solana Narrative Radar
 
 # Solana Narrative Radar
 
-*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 02:05 UTC.*
+*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 02:49 UTC.*
 
-**Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes — GitHub dev activity (35%), news/KOL/reports via search (45%), verified on-chain program traffic (20%) — with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)
+**Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes - GitHub dev activity (40%), news/KOL/reports via search (35%), verified on-chain program traffic (25%) — dev-led weights: new repos are the earliest verifiable emergence signal, media is the noisiest lane - with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)
 
 ## Detected narratives (ranked)
 
@@ -32,13 +32,41 @@ title: Solana Narrative Radar
 
 *Unsupervised term-cluster detection over the raw signal text: terms must appear in 3+ independent signals and 2+ lanes to qualify. A cluster matching no hypothesis is a narrative candidate nobody pre-labeled - the discovery lane.*
 
-- **jump crypto, firedancer jump crypto, crypto validator** - 4 signals, lanes: github+search (novel)
-- **decentralized physical, decentralized physical infrastructure, physical infrastructure** - 3 signals, lanes: github+search (novel)
+- **jump crypto, crypto validator, firedancer jump crypto** - 4 signals, lanes: github+search (novel)
+- **physical infrastructure, decentralized physical, decentralized physical infrastructure** - 3 signals, lanes: github+search (novel)
 
+
+## Why now - per-narrative change
+
+- **Agent Infrastructure & Tooling**: First scored run — baseline for momentum established this cycle.
+- **DePIN Telecom Expansion**: First scored run — baseline for momentum established this cycle.
+- **Consumer Token Launch Culture**: First scored run — baseline for momentum established this cycle.
+- **On-Chain Gaming at Scale**: First scored run — baseline for momentum established this cycle.
+- **Stablecoin Payment Rails**: First scored run — baseline for momentum established this cycle.
+- **Autonomous Agent Payments**: First scored run — baseline for momentum established this cycle.
+- **Compliance-Preserving Issuance**: First scored run — baseline for momentum established this cycle.
+- **Validator Client Modernization**: First scored run — baseline for momentum established this cycle.
+
+## Seed bucket (early signals, below the ranking gate)
+
+*Terms that failed the 3-docs + 2-lanes gate but show early cross-lane or 3-doc single-lane signal. Not ranked - watched, and promoted to clusters if they cross the gate next run. Published so exclusions are transparent, not hidden.*
+
+- electric capital - 8 docs, lanes search
+- validator client - 8 docs, lanes search
+- firedancer validator - 6 docs, lanes search
+- token extensions - 6 docs, lanes search
+- firedancer validator client - 5 docs, lanes search
+- transfer hook - 5 docs, lanes search
+- capital developer - 4 docs, lanes search
+- depin projects - 4 docs, lanes search
+- electric capital developer - 4 docs, lanes search
+- financial institutions - 4 docs, lanes search
+- financial institutions roadmap - 4 docs, lanes search
+- institutions roadmap - 4 docs, lanes search
 
 ## Evidence & build ideas
 
-### 1. Agent Infrastructure & Tooling — 1.16
+### 1. Agent Infrastructure & Tooling - 1.16
 
 *Frameworks, MCP servers, agent-runtimes and dev-tooling that make on-chain agents buildable.*
 
@@ -47,24 +75,24 @@ Detected via 11 dev signals (top: DSB-117/brainblast) + 7 media/KOL signals + ac
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [DSB-117/brainblast](https://github.com/DSB-117/brainblast) (100★) — Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth by
-- [tradinglabpremium/solana-twitter-token-trading-agent](https://github.com/tradinglabpremium/solana-twitter-token-trading-agent) (80★) — token trading agent on solana via twitter post engagement
-- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) — Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
-- [FlipZ3ro/meridian-rs](https://github.com/FlipZ3ro/meridian-rs) (36★) — Autonomous Meteora DLMM liquidity-provider agent on Solana — single headless Rust binary, 
-- [ulsreall/web3-agent-kit](https://github.com/ulsreall/web3-agent-kit) (20★) — Open-source toolkit for building AI agents that interact with blockchains — DeFi, restakin
+- [DSB-117/brainblast](https://github.com/DSB-117/brainblast) (100★) - Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth by
+- [tradinglabpremium/solana-twitter-token-trading-agent](https://github.com/tradinglabpremium/solana-twitter-token-trading-agent) (80★) - token trading agent on solana via twitter post engagement
+- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) - Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
+- [FlipZ3ro/meridian-rs](https://github.com/FlipZ3ro/meridian-rs) (36★) - Autonomous Meteora DLMM liquidity-provider agent on Solana — single headless Rust binary, 
+- [ulsreall/web3-agent-kit](https://github.com/ulsreall/web3-agent-kit) (20★) - Open-source toolkit for building AI agents that interact with blockchains — DeFi, restakin
 
 **Media / KOL / reports:**
-- [Mastercard launches Agent Pay for Machines to unlock ...](https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html) — Mastercard introduces Agent Pay for Machines to help businesses support secure, continuous machine p
-- [Agentic Payments](https://solana.com/docs/payments/agentic-payments) — Enable AI agents to pay for services, APIs, and resources autonomously using the x402 protocol. prov
-- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
-- [Solana on X](https://x.com/solana/status/2064707521181278519) — Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
-- [Top 7 AI Agent Tokens on Solana to Watch in 2026 Amid ...](https://bingx.com/en/learn/article/top-ai-agent-crypto-projects-in-solana-ecosystem) — What Are the 7 Best Solana AI Agent Projects to Watch in 2026? · 1. elizaOS (ELIZA) · 2. Goatseus Ma
+- [Mastercard launches Agent Pay for Machines to unlock ...](https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html) - Mastercard introduces Agent Pay for Machines to help businesses support secure, continuous machine p
+- [Agentic Payments](https://solana.com/docs/payments/agentic-payments) - Enable AI agents to pay for services, APIs, and resources autonomously using the x402 protocol. prov
+- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) - The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
+- [Solana on X](https://x.com/solana/status/2064707521181278519) - Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
+- [Top 7 AI Agent Tokens on Solana to Watch in 2026 Amid ...](https://bingx.com/en/learn/article/top-ai-agent-crypto-projects-in-solana-ecosystem) - What Are the 7 Best Solana AI Agent Projects to Watch in 2026? · 1. elizaOS (ELIZA) · 2. Goatseus Ma
 
 **On-chain:** spl_token_2022 (30.0 tx/s sampled)
 
 </details>
 
-### 2. DePIN Telecom Expansion — 0.82
+### 2. DePIN Telecom Expansion - 0.82
 
 *Decentralized physical infrastructure — Helium-style wireless networks expanding coverage.*
 
@@ -73,22 +101,22 @@ Detected via 6 dev signals (top: belumume/zeroclaw-solana) + 9 media/KOL signals
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) — Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
-- [jolliesol/canas-core](https://github.com/jolliesol/canas-core) (1★) — CANAS coordination core - live GPU-network simulation engine, REST API, and hardened rende
-- [RECTOR-LABS/palinurus](https://github.com/RECTOR-LABS/palinurus) (1★) — Palinurus — the Solana DePIN node that talks. A navigator at the physical edge, attesting 
-- [titalabs/solana-depin-skill](https://github.com/titalabs/solana-depin-skill) (0★) — Solana Builders find it difficult to tell their story this skills help with that
-- [Stan-lee13/solana-depin-builder-skill](https://github.com/Stan-lee13/solana-depin-builder-skill) (0★) — 
+- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) - Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
+- [jolliesol/canas-core](https://github.com/jolliesol/canas-core) (1★) - CANAS coordination core - live GPU-network simulation engine, REST API, and hardened rende
+- [RECTOR-LABS/palinurus](https://github.com/RECTOR-LABS/palinurus) (1★) - Palinurus — the Solana DePIN node that talks. A navigator at the physical edge, attesting 
+- [titalabs/solana-depin-skill](https://github.com/titalabs/solana-depin-skill) (0★) - Solana Builders find it difficult to tell their story this skills help with that
+- [Stan-lee13/solana-depin-builder-skill](https://github.com/Stan-lee13/solana-depin-builder-skill) (0★) - 
 
 **Media / KOL / reports:**
-- [io.net on Solana: The place for DePIN](https://io.net/blog/io-net-on-solana-the-place-for-depin-in-2026-and-beyond) — Amongst Layer 1s, Solana has emerged as the settlement layer of choice for DePIN protocols. The reas
-- [Decentralized Physical Infrastructure Networks (DePIN)](https://solana.com/solutions/depin) — Build Decentralized Physical Infrastructure Networks on Solana for affordable, censorship-resistant,
-- [Top 10 DePIN Projects in 2026](https://www.quicknode.com/builders-guide/best/top-10-decentralized-physical-infrastructure-networks) — Discover the top DePIN projects building decentralized networks for compute, storage, sensors, energ
-- [From Pilots to Platforms: How DePIN and dTelecom Are ...](https://fifthrow.com/blog/from-pilots-to-platforms-how-de-pin-and-d-telecom-are-systematizing-telecom-innovation-may-2026-operational-reality-check) — DePIN telecom platforms like dTelecom are transforming decentralized telecom innovation in 2026 with
-- [Deep Dive: Solana DePIN - February 2026](https://blog.syndica.io/deep-dive-solana-depin-february-2026/) — Solana DePIN protocols' revenue stabilized. collectively generated $2.4M, a slight 8% decrease from 
+- [io.net on Solana: The place for DePIN](https://io.net/blog/io-net-on-solana-the-place-for-depin-in-2026-and-beyond) - Amongst Layer 1s, Solana has emerged as the settlement layer of choice for DePIN protocols. The reas
+- [Decentralized Physical Infrastructure Networks (DePIN)](https://solana.com/solutions/depin) - Build Decentralized Physical Infrastructure Networks on Solana for affordable, censorship-resistant,
+- [Top 10 DePIN Projects in 2026](https://www.quicknode.com/builders-guide/best/top-10-decentralized-physical-infrastructure-networks) - Discover the top DePIN projects building decentralized networks for compute, storage, sensors, energ
+- [From Pilots to Platforms: How DePIN and dTelecom Are ...](https://fifthrow.com/blog/from-pilots-to-platforms-how-de-pin-and-d-telecom-are-systematizing-telecom-innovation-may-2026-operational-reality-check) - DePIN telecom platforms like dTelecom are transforming decentralized telecom innovation in 2026 with
+- [Deep Dive: Solana DePIN - February 2026](https://blog.syndica.io/deep-dive-solana-depin-february-2026/) - Solana DePIN protocols' revenue stabilized. collectively generated $2.4M, a slight 8% decrease from 
 
 </details>
 
-### 3. Consumer Token Launch Culture — 0.52
+### 3. Consumer Token Launch Culture - 0.52
 
 *Token-launch platforms as consumer onboarding (pump.fun style) and the tooling around them.*
 
@@ -97,15 +125,15 @@ Detected via 3 dev signals (top: dartkomnitibe/solana-meme-tool) + active on-cha
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [dartkomnitibe/solana-meme-tool](https://github.com/dartkomnitibe/solana-meme-tool) (194★) — Launch on pump.fun. Coordinate wallets. Snipe new pools. Mirror wallets. Run limit orders.
-- [neilveriemusm/Trpjan-solana-trading-toolkit](https://github.com/neilveriemusm/Trpjan-solana-trading-toolkit) (193★) —  self-hosted Solana console for meme-coin launch, sniping, copy trading, volume, and walle
-- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) — Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
+- [dartkomnitibe/solana-meme-tool](https://github.com/dartkomnitibe/solana-meme-tool) (194★) - Launch on pump.fun. Coordinate wallets. Snipe new pools. Mirror wallets. Run limit orders.
+- [neilveriemusm/Trpjan-solana-trading-toolkit](https://github.com/neilveriemusm/Trpjan-solana-trading-toolkit) (193★) -  self-hosted Solana console for meme-coin launch, sniping, copy trading, volume, and walle
+- [PillCrew/claimchain](https://github.com/PillCrew/claimchain) (46★) - Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness ch
 
 **On-chain:** pump_fun (30.0 tx/s sampled)
 
 </details>
 
-### 4. On-Chain Gaming at Scale — 0.52
+### 4. On-Chain Gaming at Scale - 0.52
 
 *Real games migrating player bases and economies fully on-chain (not just NFT skins).*
 
@@ -114,19 +142,19 @@ Detected via 2 dev signals (top: winsznx/bull-rush) + 9 media/KOL signals — cr
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [winsznx/bull-rush](https://github.com/winsznx/bull-rush) (353★) — ? BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game
-- [nicechunk/game](https://github.com/nicechunk/game) (316★) — Open-source browser client for the NICECHUNK voxel civilization on Solana, powered by Chun
+- [winsznx/bull-rush](https://github.com/winsznx/bull-rush) (353★) - ? BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game
+- [nicechunk/game](https://github.com/nicechunk/game) (316★) - Open-source browser client for the NICECHUNK voxel civilization on Solana, powered by Chun
 
 **Media / KOL / reports:**
-- [Gaming](https://solana.com/developers/gaming) — Build the games of the future at the speed of the internet. Solana's high throughput and low fees ma
-- [List of 57 Web3 games on Solana (2026)](https://www.alchemy.com/dapps/list-of/web3-games-on-solana) — A skill-based casual gaming platform on BNB Chain and Solana with solitaire, 8-ball pool, and tourna
-- [Solana Ecosystem Roundup: June 2026](https://solana.com/news/solana-ecosystem-roundup-june-2026) — Explore the June 2026 Solana ecosystem roundup covering tokenized SpaceX shares, $3B in RWAs, stable
-- [Solana Says These Games Are Blowing Up Right Now, So I ...](https://www.youtube.com/watch?v=9-58bOkrFgk) — Solana just called out its hottest games right now, so I went over every single one to find out what
-- [On-chain game on Solana- discussion : r/solana](https://www.reddit.com/r/solana/comments/1ajzjea/onchain_game_on_solana_discussion/) — I'm doing a research about on-chain games in the Solana ecosystem. I would love if you could share w
+- [Gaming](https://solana.com/developers/gaming) - Build the games of the future at the speed of the internet. Solana's high throughput and low fees ma
+- [List of 57 Web3 games on Solana (2026)](https://www.alchemy.com/dapps/list-of/web3-games-on-solana) - A skill-based casual gaming platform on BNB Chain and Solana with solitaire, 8-ball pool, and tourna
+- [Solana Ecosystem Roundup: June 2026](https://solana.com/news/solana-ecosystem-roundup-june-2026) - Explore the June 2026 Solana ecosystem roundup covering tokenized SpaceX shares, $3B in RWAs, stable
+- [Solana Says These Games Are Blowing Up Right Now, So I ...](https://www.youtube.com/watch?v=9-58bOkrFgk) - Solana just called out its hottest games right now, so I went over every single one to find out what
+- [On-chain game on Solana- discussion : r/solana](https://www.reddit.com/r/solana/comments/1ajzjea/onchain_game_on_solana_discussion/) - I'm doing a research about on-chain games in the Solana ecosystem. I would love if you could share w
 
 </details>
 
-### 5. Stablecoin Payment Rails — 0.48
+### 5. Stablecoin Payment Rails - 0.48
 
 *Stablecoins as default payment medium for commerce, remittances and B2B settlement.*
 
@@ -135,45 +163,66 @@ Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 17 media/KOL signal
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) — Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
+- [belumume/zeroclaw-solana](https://github.com/belumume/zeroclaw-solana) (1★) - Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, mer
 
 **Media / KOL / reports:**
-- [Solana Ecosystem Roundup: May 2026](https://solana.com/news/solana-ecosystem-roundup-may-2026) — Solana Ecosystem Roundup May 2026: RWA ATH at $2.8B+, 97% tokenized equities share, $16.4B stablecoi
-- [Solana Price Prediction 2026-2030: Will SOL Reach $295 ...](https://phemex.com/blogs/solana-price-analysis-2026-2030) — By 2026, Solana has evolved from a "fast blockchain" narrative into a genuine settlement layer for s
-- [Solana Ecosystem Roundup: April 2026](https://solana.com/news/solana-ecosystem-roundup-april-2026) — A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adopt
-- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) — The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
-- [Solana on X](https://x.com/solana/status/2064707521181278519) — Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
+- [Solana Ecosystem Roundup: May 2026](https://solana.com/news/solana-ecosystem-roundup-may-2026) - Solana Ecosystem Roundup May 2026: RWA ATH at $2.8B+, 97% tokenized equities share, $16.4B stablecoi
+- [Solana Price Prediction 2026-2030: Will SOL Reach $295 ...](https://phemex.com/blogs/solana-price-analysis-2026-2030) - By 2026, Solana has evolved from a "fast blockchain" narrative into a genuine settlement layer for s
+- [Solana Ecosystem Roundup: April 2026](https://solana.com/news/solana-ecosystem-roundup-april-2026) - A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adopt
+- [Solana bets on AI agents: Foundation says network is ...](https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet) - The Solana Foundation says the network has already processed 15 million on-chain agent payments, wit
+- [Solana on X](https://x.com/solana/status/2064707521181278519) - Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both
 
 </details>
 
-## 3-5 build ideas (tied to detected narratives)
 
-### Idea 1 — MCP server registry with on-chain reputation
+## Build ideas (fixed template: user / pain / 1-week MVP / Solana primitive / success metric)
+
+### MCP-style tool-server registry with on-chain reputation
 
 *Tied to: Agent Infrastructure & Tooling*
 
-The dev-activity lane shows a burst of agent-framework repos while the Solana Foundation publicly positions the chain as agent-payment infrastructure. Tooling to discover, rate and pay MCP-style tool servers is missing: build a registry dApp where agents list their capabilities, clients leave staked reviews, and payment escrows settle in USDC per successful tool call. The registry itself is a Solana program + a thin indexer — both top-lane evidence items point at demand.
+- **User**: AI-agent developers who need to discover and PAY for external tool calls
+- **Pain**: There is no way to discover, rate or pay MCP-style tool servers; every agent re-implements integrations and scams are indistinguishable
+- **1-week MVP**: A Solana program listing tool servers with staked USDC reviews; a thin indexer; a CLI that an agent calls before invoking any tool
+- **Solana primitive**: SPL stablecoin escrow released on successful tool call (per-call metering)
+- **Success metric**: 10 third-party tool servers listed + 100 paid tool calls settled in week 1
 
-### Idea 2 — x402-style pay-per-call metering for on-chain APIs
+### x402-style pay-per-call metering for on-chain APIs
 
 *Tied to: Autonomous Agent Payments*
 
-Agentic-payment signals are rising across search and dev lanes. Build a metering middleware: an escrow program that lets an agent pay per API call (streaming micro-payments, refund on 5xx), with a dashboard for providers. Nothing mainstream does per-call settlement on Solana today despite the Foundation pushing agent rails.
+- **User**: API/data providers who want to sell calls to AI agents without accounts or invoicing
+- **Pain**: Agents cannot pay per-call today; providers run free tiers that get abused, or require signup flows agents cannot complete
+- **1-week MVP**: Escrow middleware: agent deposits USDC, calls the API through a proxy, funds settle per call, refunds on 5xx
+- **Solana primitive**: SPL token escrow + PDA metering account per (agent, provider) pair
+- **Success metric**: 3 providers integrated + 1,000 metered calls with zero failed settlements
 
-### Idea 3 — Merchant checkout plugin with automatic FX to USDC
+### Merchant checkout with automatic local-currency pricing
 
 *Tied to: Stablecoin Payment Rails*
 
-Search-lane evidence shows stablecoins-as-default-medium coverage. Build an open-source checkout widget (Shopify/WooCommerce plugin) that prices in local currency, settles in USDC on Solana, and gives merchants a single reconciliation API. The wedge is MENA/Africa remittance corridors where card fees are the pain.
+- **User**: Small merchants in MENA/Africa selling online
+- **Pain**: Card fees and FX eat 3-7% and settlement takes days
+- **1-week MVP**: Open-source checkout widget (WooCommerce plugin first) pricing in local currency, settling in USDC on Solana
+- **Solana primitive**: SPL stablecoin transfer + memo-driven reconciliation
+- **Success metric**: 5 merchants live + first 100 USDC settled through the plugin
 
-### Idea 4 — Helium-style coverage mapper for new DePIN networks
+### DePIN coverage mapper that finds underserved regions
 
 *Tied to: DePIN Telecom Expansion*
 
-DePIN signals are strong in both dev and media lanes. Build an open coverage-visualizer that ingests hotspot geodata + reward flows for any DePIN network and highlights underserved regions (where adding hardware is most profitable). Sellable to network operators, useful to hosts deciding where to deploy.
+- **User**: DePIN hotspot hosts deciding where to deploy hardware next
+- **Pain**: Hosts deploy blind; most pick saturated areas and earn nothing
+- **1-week MVP**: Ingests public hotspot geodata + reward flows, renders a map of reward-per-coverage gaps
+- **Solana primitive**: Read-only on-chain indexer over any DePIN program's reward distribution
+- **Success metric**: Mapper live for 2 networks; hosts report deployment decisions influenced by it
 
-### Idea 5 — Player-economy analytics for fully on-chain games
+### Player-economy analytics for fully on-chain games
 
 *Tied to: On-Chain Gaming at Scale*
 
-Gaming migration signals (voxel MMOs moving player bases on-chain) create a new data need: an analytics panel for on-chain game economies — player flow, item inflation, sink/faucet health. The same indexer pattern powers it for any game.
+- **User**: On-chain game studios balancing live economies
+- **Pain**: No tooling exists for sink/faucet health, item inflation, or player-flow analytics on fully on-chain games
+- **1-week MVP**: An indexer + dashboard tracking item supply, burn rates, and player retention curves for any game using standard SPL tokens
+- **Solana primitive**: Token Program + Metaplex account indexing with per-game configuration
+- **Success metric**: 2 studios using the dashboard weekly by day 7

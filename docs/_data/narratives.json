@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T02:05:21.827373+00:00",
+ "generated": "2026-09-11T02:49:48.104772+00:00",
  "signal_file": "signals/2026-09-11.json",
  "method": "cross-lane hypothesis scoring: github(0.40) + search(0.35) + onchain(0.25), +15%/lane agreement bonus, + emergent term-cluster discovery lane",
  "narratives": [
@@ -134,7 +134,8 @@
      }
     ]
    },
-   "why": "Detected via 11 dev signals (top: DSB-117/brainblast) + 7 media/KOL signals + active on-chain program traffic \u2014 cross-lane agreement: 3/3."
+   "why": "Detected via 11 dev signals (top: DSB-117/brainblast) + 7 media/KOL signals + active on-chain program traffic \u2014 cross-lane agreement: 3/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "depin-telecom",
@@ -240,7 +241,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 6 dev signals (top: belumume/zeroclaw-solana) + 9 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 6 dev signals (top: belumume/zeroclaw-solana) + 9 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "consumer-memecoins",
@@ -282,7 +284,8 @@
      }
     ]
    },
-   "why": "Detected via 3 dev signals (top: dartkomnitibe/solana-meme-tool) + active on-chain program traffic \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 3 dev signals (top: dartkomnitibe/solana-meme-tool) + active on-chain program traffic \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "onchain-gaming",
@@ -364,7 +367,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 2 dev signals (top: winsznx/bull-rush) + 9 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 2 dev signals (top: winsznx/bull-rush) + 9 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "stablecoin-payments",
@@ -488,7 +492,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 17 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 17 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "agentic-payments",
@@ -558,7 +563,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 1 dev signals (top: belumume/zeroclaw-solana) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "compliance-issuance",
@@ -628,7 +634,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 1 dev signals (top: substreambc/my-agent) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 1 dev signals (top: substreambc/my-agent) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "validator-modernization",
@@ -698,7 +705,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 1 dev signals (top: firedancer-io/firedancer) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3."
+   "why": "Detected via 1 dev signals (top: firedancer-io/firedancer) + 8 media/KOL signals \u2014 cross-lane agreement: 2/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "rwa-tokenization",
@@ -773,7 +781,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 10 media/KOL signals \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via 10 media/KOL signals \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "privacy-layer",
@@ -842,7 +851,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 9 media/KOL signals \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via 9 media/KOL signals \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "passkey-session-wallets",
@@ -905,7 +915,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "points-quests-pretoken",
@@ -968,7 +979,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "intent-execution",
@@ -1031,7 +1043,8 @@
     ],
     "onchain": []
    },
-   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via 8 media/KOL signals \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   },
   {
    "id": "clob-perp-derivatives",
@@ -1054,15 +1067,16 @@
      }
     ]
    },
-   "why": "Detected via active on-chain program traffic \u2014 cross-lane agreement: 1/3."
+   "why": "Detected via active on-chain program traffic \u2014 cross-lane agreement: 1/3.",
+   "why_now": "First scored run \u2014 baseline for momentum established this cycle."
   }
  ],
  "discovered_clusters": [
   {
    "cluster": [
     "jump crypto",
-    "firedancer jump crypto",
     "crypto validator",
+    "firedancer jump crypto",
     "jump crypto validator",
     "firedancer jump"
    ],
@@ -1082,9 +1096,9 @@
   },
   {
    "cluster": [
+    "physical infrastructure",
     "decentralized physical",
-    "decentralized physical infrastructure",
-    "physical infrastructure"
+    "decentralized physical infrastructure"
    ],
    "docs": 3,
    "lanes": [
@@ -1097,6 +1111,92 @@
     29,
     57,
     61
+   ]
+  }
+ ],
+ "seed_terms": [
+  {
+   "term": "electric capital",
+   "docs": 8,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "validator client",
+   "docs": 8,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "firedancer validator",
+   "docs": 6,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "token extensions",
+   "docs": 6,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "firedancer validator client",
+   "docs": 5,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "transfer hook",
+   "docs": 5,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "capital developer",
+   "docs": 4,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "depin projects",
+   "docs": 4,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "electric capital developer",
+   "docs": 4,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "financial institutions",
+   "docs": 4,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "financial institutions roadmap",
+   "docs": 4,
+   "lanes": [
+    "search"
+   ]
+  },
+  {
+   "term": "institutions roadmap",
+   "docs": 4,
+   "lanes": [
+    "search"
    ]
   }
  ]

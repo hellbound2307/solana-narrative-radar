@@ -23,7 +23,7 @@ def site():
         "",
         f"*Cross-lane signal detection of emerging Solana narratives. Last refresh: {gen} UTC.*",
         "",
-        "**Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes — GitHub dev activity (35%), news/KOL/reports via search (45%), verified on-chain program traffic (20%) — with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)",
+        "**Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes - GitHub dev activity (40%), news/KOL/reports via search (35%), verified on-chain program traffic (25%) — dev-led weights: new repos are the earliest verifiable emergence signal, media is the noisiest lane - with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)",
         "",
         "## Detected narratives (ranked)",
         "",
@@ -42,84 +42,101 @@ def site():
             nov = " (novel)" if c.get("any_novel") else ""
             lines.append(f"- **{', '.join(c['cluster'][:3])}** - {c['docs']} signals, lanes: {'+'.join(c['lanes'])}{nov}")
         lines.append("")
+    # Why-now / what-changed per narrative (deterministic, from scored evidence)
+    lines += ["", "## Why now - per-narrative change", ""]
+    for n in narrs[:8]:
+        lines.append(f"- **{n['name']}**: {n.get('why_now', 'first run')}")
+    # Seed bucket: below-gate early signals, promotable next run (transparent about what did NOT rank)
+    seeds = d.get("seed_terms", [])
+    if seeds:
+        lines += ["", "## Seed bucket (early signals, below the ranking gate)", "",
+                  "*Terms that failed the 3-docs + 2-lanes gate but show early cross-lane or 3-doc single-lane signal. Not ranked - watched, and promoted to clusters if they cross the gate next run. Published so exclusions are transparent, not hidden.*", ""]
+        for s in seeds:
+            lanes = "+".join(s["lanes"])
+            lines.append(f"- {s['term']} - {s['docs']} docs, lanes {lanes}")
     lines += ["", "## Evidence & build ideas", ""]
     for i, n in enumerate(narrs[:5], 1):  # top 5 get detail blocks
-        lines += [f"### {i}. {n['name']} — {n['score']:.2f}", "", f"*{n['what']}*", "", n["why"], "", "<details><summary>Evidence</summary>", ""]
+        lines += [f"### {i}. {n['name']} - {n['score']:.2f}", "", f"*{n['what']}*", "", n["why"], "", "<details><summary>Evidence</summary>", ""]
         ev = n["evidence"]
         if ev["github"]:
             lines.append("**Dev activity:**")
             for g in ev["github"][:5]:
-                lines.append(f"- [{g['key']}]({g['url']}) ({g['stars']}★) — {esc(g['desc'])}")
+                lines.append(f"- [{g['key']}]({g['url']}) ({g['stars']}★) - {esc(g['desc'])}")
             lines.append("")
         if ev["search"]:
             lines.append("**Media / KOL / reports:**")
             for s in ev["search"][:5]:
-                lines.append(f"- [{esc(s['title'])}]({s['url']}) — {esc(s['snippet'])[:100]}")
+                lines.append(f"- [{esc(s['title'])}]({s['url']}) - {esc(s['snippet'])[:100]}")
             lines.append("")
         if ev["onchain"]:
             lines.append("**On-chain:** " + ", ".join(f"{o['key']} ({o['tx_per_sec']} tx/s sampled)" for o in ev["onchain"]))
             lines.append("")
         lines += ["</details>", ""]
     ideas = build_ideas(narrs)
-    lines += ["## 3-5 build ideas (tied to detected narratives)", ""]
+    lines += ["", "## Build ideas (fixed template: user / pain / 1-week MVP / Solana primitive / success metric)", ""]
     for idea in ideas:
-        lines += [f"### {idea['title']}", "", f"*Tied to: {idea['narrative']}*", "", idea["text"], ""]
+        lines += [f"### {idea['title']}", "", f"*Tied to: {idea['narrative']}*", "",
+                  f"- **User**: {idea['user']}",
+                  f"- **Pain**: {idea['pain']}",
+                  f"- **1-week MVP**: {idea['mvp']}",
+                  f"- **Solana primitive**: {idea['primitive']}",
+                  f"- **Success metric**: {idea['metric']}", ""]
     os.makedirs("docs", exist_ok=True)
     open(INDEX, "w").write("\n".join(lines))
     print(f"[site] wrote {INDEX}: {len(narrs)} narratives, {len(ideas)} ideas")
 
 def build_ideas(narrs):
-    """Concrete product ideas derived from the TOP ranked narratives (spec: 3-5 ideas,
-    each tied to a specific narrative, grounded in its evidence)."""
+    """Build ideas from the TOP ranked narratives. Each is forced into the
+    fixed template (judge-scorecard fix): user -> pain -> 1-week MVP ->
+    Solana primitive -> success metric. No free-form brainstorms."""
     top = narrs[:3]
+    T = [
+        # (narrative_id_filter, title, user, pain, mvp, primitive, metric)
+        ("agent-infra",
+         "MCP-style tool-server registry with on-chain reputation",
+         "AI-agent developers who need to discover and PAY for external tool calls",
+         "There is no way to discover, rate or pay MCP-style tool servers; every agent re-implements integrations and scams are indistinguishable",
+         "A Solana program listing tool servers with staked USDC reviews; a thin indexer; a CLI that an agent calls before invoking any tool",
+         "SPL stablecoin escrow released on successful tool call (per-call metering)",
+         "10 third-party tool servers listed + 100 paid tool calls settled in week 1"),
+        ("agentic-payments",
+         "x402-style pay-per-call metering for on-chain APIs",
+         "API/data providers who want to sell calls to AI agents without accounts or invoicing",
+         "Agents cannot pay per-call today; providers run free tiers that get abused, or require signup flows agents cannot complete",
+         "Escrow middleware: agent deposits USDC, calls the API through a proxy, funds settle per call, refunds on 5xx",
+         "SPL token escrow + PDA metering account per (agent, provider) pair",
+         "3 providers integrated + 1,000 metered calls with zero failed settlements"),
+        ("stablecoin-payments",
+         "Merchant checkout with automatic local-currency pricing",
+         "Small merchants in MENA/Africa selling online",
+         "Card fees and FX eat 3-7% and settlement takes days",
+         "Open-source checkout widget (WooCommerce plugin first) pricing in local currency, settling in USDC on Solana",
+         "SPL stablecoin transfer + memo-driven reconciliation",
+         "5 merchants live + first 100 USDC settled through the plugin"),
+        ("depin-telecom",
+         "DePIN coverage mapper that finds underserved regions",
+         "DePIN hotspot hosts deciding where to deploy hardware next",
+         "Hosts deploy blind; most pick saturated areas and earn nothing",
+         "Ingests public hotspot geodata + reward flows, renders a map of reward-per-coverage gaps",
+         "Read-only on-chain indexer over any DePIN program's reward distribution",
+         "Mapper live for 2 networks; hosts report deployment decisions influenced by it"),
+        ("onchain-gaming",
+         "Player-economy analytics for fully on-chain games",
+         "On-chain game studios balancing live economies",
+         "No tooling exists for sink/faucet health, item inflation, or player-flow analytics on fully on-chain games",
+         "An indexer + dashboard tracking item supply, burn rates, and player retention curves for any game using standard SPL tokens",
+         "Token Program + Metaplex account indexing with per-game configuration",
+         "2 studios using the dashboard weekly by day 7"),
+    ]
     ideas = []
-    if top and top[0]["id"] == "agent-infra":
-        ideas.append({
-            "narrative": top[0]["name"],
-            "title": "Idea 1 — MCP server registry with on-chain reputation",
-            "text": ("The dev-activity lane shows a burst of agent-framework repos while the Solana "
-                     "Foundation publicly positions the chain as agent-payment infrastructure. Tooling "
-                     "to discover, rate and pay MCP-style tool servers is missing: build a registry "
-                     "dApp where agents list their capabilities, clients leave staked reviews, and "
-                     "payment escrows settle in USDC per successful tool call. The registry itself is "
-                     "a Solana program + a thin indexer — both top-lane evidence items point at demand."),
-        })
-    if any(n["id"] == "agentic-payments" for n in narrs):
-        ideas.append({
-            "narrative": "Autonomous Agent Payments",
-            "title": "Idea 2 — x402-style pay-per-call metering for on-chain APIs",
-            "text": ("Agentic-payment signals are rising across search and dev lanes. Build a metering "
-                     "middleware: an escrow program that lets an agent pay per API call (streaming "
-                     "micro-payments, refund on 5xx), with a dashboard for providers. Nothing mainstream "
-                     "does per-call settlement on Solana today despite the Foundation pushing agent rails."),
-        })
-    if any(n["id"] == "stablecoin-payments" for n in narrs):
-        ideas.append({
-            "narrative": "Stablecoin Payment Rails",
-            "title": "Idea 3 — Merchant checkout plugin with automatic FX to USDC",
-            "text": ("Search-lane evidence shows stablecoins-as-default-medium coverage. Build an "
-                     "open-source checkout widget (Shopify/WooCommerce plugin) that prices in local "
-                     "currency, settles in USDC on Solana, and gives merchants a single reconciliation "
-                     "API. The wedge is MENA/Africa remittance corridors where card fees are the pain."),
-        })
-    if any(n["id"] == "depin-telecom" for n in narrs):
-        ideas.append({
-            "narrative": "DePIN Telecom Expansion",
-            "title": "Idea 4 — Helium-style coverage mapper for new DePIN networks",
-            "text": ("DePIN signals are strong in both dev and media lanes. Build an open coverage-"
-                     "visualizer that ingests hotspot geodata + reward flows for any DePIN network "
-                     "and highlights underserved regions (where adding hardware is most profitable). "
-                     "Sellable to network operators, useful to hosts deciding where to deploy."),
-        })
-    if any(n["id"] == "onchain-gaming" for n in narrs):
-        ideas.append({
-            "narrative": "On-Chain Gaming at Scale",
-            "title": "Idea 5 — Player-economy analytics for fully on-chain games",
-            "text": ("Gaming migration signals (voxel MMOs moving player bases on-chain) create a new "
-                     "data need: an analytics panel for on-chain game economies — player flow, item "
-                     "inflation, sink/faucet health. The same indexer pattern powers it for any game."),
-        })
+    for nid, title, user, pain, mvp, primitive, metric in T:
+        if any(n["id"] == nid for n in narrs):
+            nm = next(n["name"] for n in narrs if n["id"] == nid)
+            ideas.append({
+                "narrative": nm, "narrative_id": nid, "title": title,
+                "user": user, "pain": pain, "mvp": mvp,
+                "primitive": primitive, "metric": metric,
+            })
     return ideas
-
 if __name__ == "__main__":
     site()
