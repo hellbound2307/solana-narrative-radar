@@ -1,0 +1,45 @@
+name: Solana Narrative Radar
+
+on:
+  schedule:
+    # fortnightly refresh (the cadence the bounty spec asks for)
+    - cron: "23 3 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run radar pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+        run: |
+          python3 collect.py
+          python3 analyze.py
+          python3 site.py
+
+      - name: Commit signals + outputs
+        run: |
+          git config user.name "narrative-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A signals narratives docs README.md
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "radar refresh $(date -u +%F)"
+            git push
+          fi
