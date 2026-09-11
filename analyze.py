@@ -192,12 +192,22 @@ def main():
         "narratives": narratives,
     }
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, stamp + ".json"), "w") as f:
+    with open(os.path.join(OUT_DIR, stamp + ".json"), "w", encoding="utf-8", errors="replace") as f:
         json.dump(out, f, indent=1)
     os.makedirs(SITE_DATA, exist_ok=True)
     # Jekyll's safe_yaml parses _data/*.json as YAML — write pure-ASCII with
     # valid JSON escapes (no raw control chars / surrogates / non-ASCII bytes)
     # so the Pages build never chokes on scraped text.
+    # Sanitize scraped text for Jekyll's YAML parser (Psych):
+    #  - lone UTF-16 surrogates (from broken upstream escapes) — invalid in YAML & utf-8
+    #  - non-BMP emoji — ensure_ascii emits surrogate-pair escapes Psych rejects
+    def _clean(o):
+        if isinstance(o, dict): return {k: _clean(v) for k, v in o.items()}
+        if isinstance(o, list): return [_clean(v) for v in o]
+        if isinstance(o, str):
+            return "".join(c if (ord(c) <= 0xFFFF and not (0xD800 <= ord(c) <= 0xDFFF)) else "?" for c in o)
+        return o
+    out = _clean(out)
     with open(os.path.join(SITE_DATA, "narratives.json"), "w", encoding="ascii") as f:
         json.dump(out, f, indent=1, ensure_ascii=True)
     print(f"[analyze] {stamp}: {len(narratives)} narratives ranked")

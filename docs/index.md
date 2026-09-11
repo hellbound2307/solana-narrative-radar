@@ -5,7 +5,7 @@ title: Solana Narrative Radar
 
 # Solana Narrative Radar
 
-*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 01:11 UTC.*
+*Cross-lane signal detection of emerging Solana narratives. Last refresh: 2026-09-11 01:50 UTC.*
 
 **Method:** each narrative is a hypothesis with a keyword fingerprint, scored across three independent lanes — GitHub dev activity (35%), news/KOL/reports via search (45%), verified on-chain program traffic (20%) — with a +15% bonus per lane of cross-agreement. Evidence lists below every score. [Method & sources →](https://github.com/hellbound2307/solana-narrative-radar#method)
 
@@ -105,7 +105,7 @@ Detected via 2 dev signals (top: winsznx/bull-rush) + 8 media/KOL signals — cr
 <details><summary>Evidence</summary>
 
 **Dev activity:**
-- [winsznx/bull-rush](https://github.com/winsznx/bull-rush) (353★) — 🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game
+- [winsznx/bull-rush](https://github.com/winsznx/bull-rush) (353★) — ? BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game
 - [nicechunk/game](https://github.com/nicechunk/game) (316★) — Open-source browser client for the NICECHUNK voxel civilization on Solana, powered by Chun
 
 **Media / KOL / reports:**

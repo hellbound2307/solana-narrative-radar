@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T01:11:16.253800+00:00",
+ "generated": "2026-09-11T01:50:37.017261+00:00",
  "signal_file": "signals/2026-09-11.json",
  "method": "cross-lane hypothesis scoring: github(0.35) + search(0.45) + onchain(0.20), +15%/lane agreement bonus",
  "narratives": [
@@ -379,7 +379,7 @@
       "key": "winsznx/bull-rush",
       "stars": 353,
       "url": "https://github.com/winsznx/bull-rush",
-      "desc": "\ud83d\udc02 BULL RUSH \u2014 a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game"
+      "desc": "? BULL RUSH \u2014 a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game"
      },
      {
       "key": "nicechunk/game",
