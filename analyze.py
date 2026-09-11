@@ -195,8 +195,11 @@ def main():
     with open(os.path.join(OUT_DIR, stamp + ".json"), "w") as f:
         json.dump(out, f, indent=1)
     os.makedirs(SITE_DATA, exist_ok=True)
-    with open(os.path.join(SITE_DATA, "narratives.json"), "w") as f:
-        json.dump(out, f, indent=1)
+    # Jekyll's safe_yaml parses _data/*.json as YAML — write pure-ASCII with
+    # valid JSON escapes (no raw control chars / surrogates / non-ASCII bytes)
+    # so the Pages build never chokes on scraped text.
+    with open(os.path.join(SITE_DATA, "narratives.json"), "w", encoding="ascii") as f:
+        json.dump(out, f, indent=1, ensure_ascii=True)
     print(f"[analyze] {stamp}: {len(narratives)} narratives ranked")
     for n in narratives[:5]:
         m = "" if n["momentum"] is None else f" (Δ{n['momentum']})"
