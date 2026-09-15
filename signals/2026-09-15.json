@@ -1,0 +1,1442 @@
+{
+ "github": [
+  {
+   "lane": "github_new",
+   "key": "MetaMask-AI/metamask-desktop",
+   "stars": 1232,
+   "desc": "\ud83c\udf10 \ud83d\udd0c The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
+   "url": "https://github.com/MetaMask-AI/metamask-desktop",
+   "created": "2026-08-28T08:07:10Z",
+   "lang": "CSS"
+  },
+  {
+   "lane": "github_new",
+   "key": "vybenetwork/solana-swap-api",
+   "stars": 1201,
+   "desc": "Solana Swap API & Router",
+   "url": "https://github.com/vybenetwork/solana-swap-api",
+   "created": "2026-06-03T18:37:37Z",
+   "lang": "JavaScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "winsznx/bull-rush",
+   "stars": 352,
+   "desc": "\ud83d\udc02 BULL RUSH \u2014 a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play \u2192 ",
+   "url": "https://github.com/winsznx/bull-rush",
+   "created": "2026-06-25T07:42:50Z",
+   "lang": "Solidity"
+  },
+  {
+   "lane": "github_new",
+   "key": "nhovongoc0-max/meme-radar",
+   "stars": 337,
+   "desc": "Meme\u96f7\u8fbe\u5f00\u6e90\u7248\uff1a\u672c\u5730\u53ea\u8bfb\u3001\u591a\u94fe Meme \u5019\u9009\u626b\u63cf\u4e0e\u4eba\u5de5\u590d\u6838\u5de5\u5177",
+   "url": "https://github.com/nhovongoc0-max/meme-radar",
+   "created": "2026-09-11T12:14:57Z",
+   "lang": "JavaScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "nicechunk/game",
+   "stars": 318,
+   "desc": "Open-source browser client for the NICECHUNK voxel civilization on Solana, powered by Chunk.js.",
+   "url": "https://github.com/nicechunk/game",
+   "created": "2026-07-20T05:09:52Z",
+   "lang": "JavaScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "vybenetwork/solana-pyth-api",
+   "stars": 215,
+   "desc": "Solana Pyth API",
+   "url": "https://github.com/vybenetwork/solana-pyth-api",
+   "created": "2026-07-13T21:10:36Z",
+   "lang": "CSS"
+  },
+  {
+   "lane": "github_new",
+   "key": "vybenetwork/solana-defi-positions-api",
+   "stars": 215,
+   "desc": "Solana DeFi Positions API",
+   "url": "https://github.com/vybenetwork/solana-defi-positions-api",
+   "created": "2026-07-09T21:17:40Z",
+   "lang": "JavaScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "vybenetwork/solana-balances-api",
+   "stars": 212,
+   "desc": "Solana Balances API",
+   "url": "https://github.com/vybenetwork/solana-balances-api",
+   "created": "2026-06-29T21:11:35Z",
+   "lang": "JavaScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "dartkomnitibe/solana-meme-tool",
+   "stars": 194,
+   "desc": "Launch on pump.fun. Coordinate wallets. Snipe new pools. Mirror wallets. Run limit orders. Score counterparties. All from one Next.js contro",
+   "url": "https://github.com/dartkomnitibe/solana-meme-tool",
+   "created": "2026-08-13T11:48:48Z",
+   "lang": null
+  },
+  {
+   "lane": "github_new",
+   "key": "solana-foundation/tokens",
+   "stars": 193,
+   "desc": "The source of truth for canonical assets on Solana. ",
+   "url": "https://github.com/solana-foundation/tokens",
+   "created": "2026-08-06T00:51:16Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "DSB-117/brainblast",
+   "stars": 100,
+   "desc": "Predict the silent integration traps an AI agent would ship (zero-revenue configs, auth bypasses, immutable wrong choices) \u2014 then enforce, i",
+   "url": "https://github.com/DSB-117/brainblast",
+   "created": "2026-06-04T19:17:55Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "tradinglabpremium/solana-twitter-token-trading-agent",
+   "stars": 81,
+   "desc": "token trading agent on solana via twitter post engagement",
+   "url": "https://github.com/tradinglabpremium/solana-twitter-token-trading-agent",
+   "created": "2026-06-15T09:34:44Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "romankurnovskii/etemaro",
+   "stars": 57,
+   "desc": "Auto dlmm Meteora bot system",
+   "url": "https://github.com/romankurnovskii/etemaro",
+   "created": "2026-07-12T04:50:23Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "PillCrew/claimchain",
+   "stars": 46,
+   "desc": "Verify that an AI agent's on-chain claims are actually true. A claim-level groundedness checker for Solana / memecoin agents.",
+   "url": "https://github.com/PillCrew/claimchain",
+   "created": "2026-09-02T23:40:59Z",
+   "lang": "Python"
+  },
+  {
+   "lane": "github_new",
+   "key": "FlipZ3ro/meridian-rs",
+   "stars": 36,
+   "desc": "Autonomous Meteora DLMM liquidity-provider agent on Solana \u2014 single headless Rust binary, Telegram-controlled",
+   "url": "https://github.com/FlipZ3ro/meridian-rs",
+   "created": "2026-06-08T07:52:36Z",
+   "lang": "Rust"
+  },
+  {
+   "lane": "github_new",
+   "key": "ulsreall/web3-agent-kit",
+   "stars": 20,
+   "desc": "Open-source toolkit for building AI agents that interact with blockchains \u2014 DeFi, restaking, token sniping, portfolio tracking, bridging, an",
+   "url": "https://github.com/ulsreall/web3-agent-kit",
+   "created": "2026-06-03T15:41:28Z",
+   "lang": "Python"
+  },
+  {
+   "lane": "github_new",
+   "key": "fhryzal/solana-auditor-skill",
+   "stars": 13,
+   "desc": "Production-grade Solana security auditor skill for AI agents",
+   "url": "https://github.com/fhryzal/solana-auditor-skill",
+   "created": "2026-06-22T13:20:33Z",
+   "lang": "Shell"
+  },
+  {
+   "lane": "github_new",
+   "key": "o-mid/guardrail-agent",
+   "stars": 13,
+   "desc": "NL intent \u2192 schema \u2192 Go policy \u2192 HITL \u2192 local EVM/Solana execution",
+   "url": "https://github.com/o-mid/guardrail-agent",
+   "created": "2026-08-01T08:29:05Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "Voightxyz/voight-txline-agent",
+   "stars": 13,
+   "desc": "Sharp Movement Detector on Voight, TxLINE World Cup Hackathon 2026. Deterministic detection over Solana-anchored odds, running in a producti",
+   "url": "https://github.com/Voightxyz/voight-txline-agent",
+   "created": "2026-07-15T20:28:44Z",
+   "lang": "Python"
+  },
+  {
+   "lane": "github_new",
+   "key": "KOSASIH/aetherion-os",
+   "stars": 11,
+   "desc": "AETHERION OS - The Autonomous Company Operating System. One Prompt = One Company. 7 AI Agents running a real business on Solana.",
+   "url": "https://github.com/KOSASIH/aetherion-os",
+   "created": "2026-07-04T01:30:57Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "belumume/zeroclaw-solana",
+   "stars": 1,
+   "desc": "Self-hosted deny-by-default Solana agent: device-signed DePIN feed, x402 earning-node, merchant terminal. On-chain program bounds the agent.",
+   "url": "https://github.com/belumume/zeroclaw-solana",
+   "created": "2026-07-27T14:50:49Z",
+   "lang": "Python"
+  },
+  {
+   "lane": "github_new",
+   "key": "jolliesol/canas-core",
+   "stars": 1,
+   "desc": "CANAS coordination core - live GPU-network simulation engine, REST API, and hardened render/RPC proxies for a Solana DePIN.",
+   "url": "https://github.com/jolliesol/canas-core",
+   "created": "2026-06-05T16:46:05Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "Voightxyz/Nosana-SDK",
+   "stars": 1,
+   "desc": "Detect, verify, and showcase AI agents running on Nosana decentralized GPU compute. Zero-dependency TypeScript SDK by Voight.",
+   "url": "https://github.com/Voightxyz/Nosana-SDK",
+   "created": "2026-07-21T10:22:02Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_new",
+   "key": "PhoenixAB88/pulsar-network",
+   "stars": 1,
+   "desc": "Independent, source-available live monitor for the Xandeum pNode storage network on Solana. Not affiliated with Xandeum.",
+   "url": "https://github.com/PhoenixAB88/pulsar-network",
+   "created": "2026-06-21T14:13:19Z",
+   "lang": "HTML"
+  },
+  {
+   "lane": "github_new",
+   "key": "substreambc/my-agent",
+   "stars": 1,
+   "desc": "{\"name\":\"SNTL Attestation\",\"display_name\":\"SNTL Attestation \u2014 Spatiotemporal Agent ID\",\"description\":\"RF-layer, physics-backed Spatiotempora",
+   "url": "https://github.com/substreambc/my-agent",
+   "created": "2026-06-22T15:12:42Z",
+   "lang": null
+  },
+  {
+   "lane": "github_new",
+   "key": "cloudiy-cloud/cloudiy-core",
+   "stars": 1,
+   "desc": "Decentralized Cloud Computing",
+   "url": "https://github.com/cloudiy-cloud/cloudiy-core",
+   "created": "2026-07-29T00:40:24Z",
+   "lang": "Rust"
+  },
+  {
+   "lane": "github_new",
+   "key": "RECTOR-LABS/palinurus",
+   "stars": 1,
+   "desc": "Palinurus \u2014 the Solana DePIN node that talks. A navigator at the physical edge, attesting back to the chain. ZeroClaw wasm32-wasip2 WIT tool",
+   "url": "https://github.com/RECTOR-LABS/palinurus",
+   "created": "2026-07-19T00:11:37Z",
+   "lang": "Rust"
+  },
+  {
+   "lane": "github_new",
+   "key": "titalabs/solana-depin-skill",
+   "stars": 0,
+   "desc": "Solana Builders find it difficult to tell their story this skills help with that",
+   "url": "https://github.com/titalabs/solana-depin-skill",
+   "created": "2026-06-29T10:20:41Z",
+   "lang": "Shell"
+  },
+  {
+   "lane": "github_new",
+   "key": "Stan-lee13/solana-depin-builder-skill",
+   "stars": 0,
+   "desc": "",
+   "url": "https://github.com/Stan-lee13/solana-depin-builder-skill",
+   "created": "2026-06-23T21:37:41Z",
+   "lang": "Shell"
+  },
+  {
+   "lane": "github_new",
+   "key": "scooj2002/Solana-DePIN-SmartBox-",
+   "stars": 0,
+   "desc": "is a decentralized physical infrastructure network (DePIN) for last-mile retail and grocery delivery. By combining smart-locking hardware, E",
+   "url": "https://github.com/scooj2002/Solana-DePIN-SmartBox-",
+   "created": "2026-08-17T22:55:21Z",
+   "lang": null
+  },
+  {
+   "lane": "github_active",
+   "key": "OneKeyHQ/app-monorepo",
+   "stars": 2444,
+   "desc": "Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions.",
+   "url": "https://github.com/OneKeyHQ/app-monorepo",
+   "pushed": "2026-09-15T03:35:28Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_active",
+   "key": "KeystoneHQ/keystone3-firmware",
+   "stars": 223,
+   "desc": "The best open source hardware wallet",
+   "url": "https://github.com/KeystoneHQ/keystone3-firmware",
+   "pushed": "2026-09-15T01:59:02Z",
+   "lang": "C"
+  },
+  {
+   "lane": "github_active",
+   "key": "solana-foundation/solana-com",
+   "stars": 505,
+   "desc": "The solana.com website.",
+   "url": "https://github.com/solana-foundation/solana-com",
+   "pushed": "2026-09-15T01:29:36Z",
+   "lang": "MDX"
+  },
+  {
+   "lane": "github_active",
+   "key": "Scottcjn/Rustchain",
+   "stars": 795,
+   "desc": "Sybil-resistant AI agent network with hardware-attested identity. Proof-of-Antiquity blockchain: physical machines across 15+ CPU architectu",
+   "url": "https://github.com/Scottcjn/Rustchain",
+   "pushed": "2026-09-15T00:29:22Z",
+   "lang": "Python"
+  },
+  {
+   "lane": "github_active",
+   "key": "regolith-labs/ore",
+   "stars": 821,
+   "desc": "Hard Money for the Digital Age.",
+   "url": "https://github.com/regolith-labs/ore",
+   "pushed": "2026-09-14T23:14:32Z",
+   "lang": "Rust"
+  },
+  {
+   "lane": "github_active",
+   "key": "firedancer-io/firedancer",
+   "stars": 1520,
+   "desc": "Firedancer is Jump Crypto's Solana validator software.",
+   "url": "https://github.com/firedancer-io/firedancer",
+   "pushed": "2026-09-15T01:17:58Z",
+   "lang": "C"
+  },
+  {
+   "lane": "github_active",
+   "key": "cake-tech/cake_wallet",
+   "stars": 1909,
+   "desc": "The open source repository for Cake Wallet, a noncustodial multi-currency wallet, and Monero.com, a noncustodial Monero-only wallet. Need he",
+   "url": "https://github.com/cake-tech/cake_wallet",
+   "pushed": "2026-09-14T19:58:27Z",
+   "lang": "Dart"
+  },
+  {
+   "lane": "github_active",
+   "key": "nirholas/cryptocurrency.cv",
+   "stars": 308,
+   "desc": "Free crypto news API - real-time aggregator for Bitcoin, Ethereum, DeFi, Solana & altcoins. No API key required. RSS/Atom feeds, JSON REST A",
+   "url": "https://github.com/nirholas/cryptocurrency.cv",
+   "pushed": "2026-09-14T18:54:48Z",
+   "lang": "TypeScript"
+  },
+  {
+   "lane": "github_active",
+   "key": "anza-xyz/jetstreamer",
+   "stars": 233,
+   "desc": "A Solana project geared towards realtime indexing, research, and backfilling with support for all epochs in the history of Solana mainnet, c",
+   "url": "https://github.com/anza-xyz/jetstreamer",
+   "pushed": "2026-09-14T19:18:04Z",
+   "lang": "Rust"
+  },
+  {
+   "lane": "github_active",
+   "key": "AudiusProject/apps",
+   "stars": 618,
+   "desc": "Audius apps monorepo - web / react native / typescript sdk",
+   "url": "https://github.com/AudiusProject/apps",
+   "pushed": "2026-09-14T16:57:49Z",
+   "lang": "TypeScript"
+  }
+ ],
+ "search": [
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Solana Ecosystem Roundup: May 2026",
+   "snippet": "Solana Ecosystem Roundup May 2026: RWA ATH at $2.8B+, 97% tokenized equities share, $16.4B stablecoin supply, and record ETF inflows.",
+   "url": "https://solana.com/news/solana-ecosystem-roundup-may-2026",
+   "date": "May 17, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Can Solana Hit $200 by the End of 2026? Main 3 Catalysts ...",
+   "snippet": "The Solana price prediction 2026 currently supports several possible outcomes. Much depends on ETF flows, technical breakouts, network ...",
+   "url": "https://bitcoinfoundation.org/news/analysis/can-solana-hit-200-by-the-end-of-2026-main-3-catalysts-could-send-sol-soaring/",
+   "date": "Aug 31, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Solana Foundation On Agentic Commerce & On-Chain Growth ...",
+   "snippet": "A financial educator advises viewers to move beyond speculative meme coins and focus on four emerging cryptocurrency narratives backed by ...",
+   "url": "https://www.facebook.com/cnbctv18india/videos/cryptocorner-season-2-solana-foundation-on-agentic-commerce-on-chain-growth-sola/1110893638037453/",
+   "date": "2 weeks ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Solana Ecosystem Roundup: March 2026",
+   "snippet": "SOL received a clearer regulatory designation in the U.S., RWA activity on Solana reached new highs across holders, value, and lending.",
+   "url": "https://solana.com/news/solana-ecosystem-roundup-march-2026",
+   "date": "Apr 5, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Year in Solana: 2026 Preview and Predictions https ...",
+   "snippet": "After a volatile close to 2025, the market has entered 2026 with a cautiously bullish momentum. 1. Current Price Action & Technicals As of ...",
+   "url": "https://www.facebook.com/CoinMarketCap/posts/year-in-solana-2026-preview-and-predictions-sol-dipped-3-but-held-120-as-solana-/1286964520127605/",
+   "date": "8 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Solana 2026 outlook: Scale is proven, value capture is not",
+   "snippet": "Here's why we think Solana will go up to $197 in 2026 and what could drag it down to $95.",
+   "url": "https://www.21shares.com/en-us/insights/solana-2026-outlook-scale-is-proven-value-capture-is-not",
+   "date": "Jan 26, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Solana Ecosystem Roundup: April 2026",
+   "snippet": "A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adoption and tokenized RWAs to stablecoins, ...",
+   "url": "https://solana.com/news/solana-ecosystem-roundup-april-2026",
+   "date": "May 11, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana emerging narrative 2026",
+   "title": "Is Sui The Next Solana In 2026? A Deep Dive Into L1 ...",
+   "snippet": "As ...",
+   "url": "https://tokenmetrics.com/blog/is-sui-the-next-solana-in-2026-a-deep-dive-into-l1-competitors/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Giving AI agents a native way to pay with x402",
+   "snippet": "X402 has processed roughly 200M transactions and $50B in volume, giving AI agents a stablecoin-native way to pay for web resources ... \u00a9 2026 Solana Foundation.",
+   "url": "https://solana.com/news/webinar-recap-agentic-payments",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Mastercard launches Agent Pay for Machines to unlock ...",
+   "snippet": "Now it's requiring a new class of payments. Mastercard envisions a future where businesses create services for AI agents to buy and use.",
+   "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+   "date": "Jun 10, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Agentic Payments",
+   "snippet": "Enable AI agents to pay for services, APIs, and resources autonomously using the x402 protocol.",
+   "url": "https://solana.com/docs/payments/agentic-payments",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Solana bets on AI agents: Foundation says network is ...",
+   "snippet": "The Solana Foundation says the network has already processed 15 million on-chain agent payments, with stablecoins emerging as the default ...",
+   "url": "https://www.coindesk.com/business/2026/03/25/solana-bets-on-ai-agents-foundation-says-network-is-becoming-core-infrastructure-for-agentic-internet",
+   "date": "Mar 25, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Solana joins @Mastercard's Agent Pay for Machines ...",
+   "snippet": "BREAKING: Solana joins @Mastercard's Agent Pay for Machines, a new service that lets AI agents pay across both cards and stablecoins.",
+   "url": "https://x.com/solana/status/2064707515602903126",
+   "date": "3 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Top 7 AI Agent Tokens on Solana to Watch in 2026 Amid ...",
+   "snippet": "Discover the leading AI agent projects within the Solana ecosystem for 2026, from autonomous social phenomena like Goatseus Maximus to ...",
+   "url": "https://bingx.com/en/learn/article/top-ai-agent-crypto-projects-in-solana-ecosystem",
+   "date": "Feb 27, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Solana Controls 49% of AI Agent-to-Agent Payments on ...",
+   "snippet": "By late December and early January, Solana had climbed back past 60% and at one point approached 80% share in the first week of January 2026. A ...",
+   "url": "https://www.binance.com/en/square/post/296857727071537",
+   "date": "Mar 1, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana AI agents payments 2026",
+   "title": "Solana Payment Channels: 1M TPS Claim for AI Agents ...",
+   "snippet": "Solana announced Payment Channels on Sept 3, 2026, citing 1M payments/sec for AI agents. It's a lab benchmark, not mainnet \u2014 here's what it ...",
+   "url": "https://www.explainx.ai/blog/solana-payment-channels-ai-agents-2026",
+   "date": "Sep 5, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "io.net on Solana: The place for DePIN",
+   "snippet": "Amongst Layer 1s, Solana has emerged as the settlement layer of choice for DePIN protocols. The reasons for this emergence are structural.",
+   "url": "https://io.net/blog/io-net-on-solana-the-place-for-depin-in-2026-and-beyond",
+   "date": "Jun 9, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "Decentralized Physical Infrastructure Networks (DePIN)",
+   "snippet": "Build Decentralized Physical Infrastructure Networks on Solana for affordable, censorship-resistant, and composable hardware resource orchestration.",
+   "url": "https://solana.com/solutions/depin",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "Top 10 DePIN Projects in 2026",
+   "snippet": "Discover the top DePIN projects building decentralized networks for compute, storage, sensors, energy, and connectivity. including Solana, Ethereum, Polygon, ...",
+   "url": "https://www.quicknode.com/builders-guide/best/top-10-decentralized-physical-infrastructure-networks",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "From Pilots to Platforms: How DePIN and dTelecom Are ...",
+   "snippet": "DePIN telecom platforms like dTelecom are transforming decentralized telecom innovation in 2026 with open governance, tokenomics, and modular ...",
+   "url": "https://fifthrow.com/blog/from-pilots-to-platforms-how-de-pin-and-d-telecom-are-systematizing-telecom-innovation-may-2026-operational-reality-check",
+   "date": "May 13, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "Deep Dive: Solana DePIN - February 2026",
+   "snippet": "Solana DePIN protocols' revenue stabilized. collectively generated $2.4M, a slight 8% decrease from January. ed protocols crossed $22M since ...",
+   "url": "https://blog.syndica.io/deep-dive-solana-depin-february-2026/",
+   "date": "Mar 24, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "Top Solana Projects with Potential in 2026",
+   "snippet": "Explore the top Solana projects to follow in 2026. Discover high-potential DeFi, NFT, infrastructure, DePIN, and real-world Solana apps ...",
+   "url": "https://changelly.com/blog/top-solana-projects/",
+   "date": "Jun 29, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "Best DePIN Projects 2026 - Top Decentralized Physical ...",
+   "snippet": "BEST DEPIN PROJECTS 2026: TOP DECENTRALIZED PHYSICAL INFRASTRUCTURE NETWORKS \u00b7 HELIUM MOBILE \u00b7 GRASS.IO \u00b7 HIVEMAPPER \u00b7 RENDER NETWORK \u00b7 PEAQ \u00b7 GEODNET.",
+   "url": "https://www.titannet.io/learn/basics/best-depin-projects-2026-top-decentralized-physical-infrastructure-networks",
+   "date": "Feb 12, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana DePIN telecom 2026",
+   "title": "DePIN projects",
+   "snippet": "Explore the best DePIN projects. The latest stories from DePIN projects \u2026 2020-2026 Hotspotty.",
+   "url": "https://depinhub.io/projects/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Low-cost, instant payments",
+   "snippet": "The stablecoin will enable Western Union's 100 million customers to send money internationally with lower costs and faster settlement. Stablecoin launching 2026 ...",
+   "url": "https://solana.com/solutions/institutional-payments",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Payments News",
+   "snippet": "Latest stories, updates, and analysis from the Payments news vertical. Report: Stablecoins Are Reshaping Remittances. Payments\u00b7Sep 8, 2026 ... stablecoin payments ...",
+   "url": "https://solana.com/news/category/payments",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Solana Ecosystem Roundup: April 2026",
+   "snippet": "A deep dive into everything that shaped the Solana ecosystem in April 2026, from institutional adoption and tokenized RWAs to stablecoins, ...",
+   "url": "https://solana.com/news/solana-ecosystem-roundup-april-2026",
+   "date": "May 11, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Stablecoin Statistics & Data 2026: All You Need To Know",
+   "snippet": "Cross-border B2B stablecoin payments are projected to reach $5 trillion by 2035, from ~$13.4 billion in 2026, with ~85% of stablecoin value ...",
+   "url": "https://reap.global/blog/stablecoin-statistics-2026",
+   "date": "Aug 14, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Stripe Stablecoin Payments 2026 | Support",
+   "snippet": "Stripe accepts stablecoin payments from customers in 70+ countries, settles them to USDC on Solana, Ethereum, or Polygon, and pays merchants ...",
+   "url": "https://eco.com/support/en/articles/15083174-stripe-stablecoin-payments-2026",
+   "date": "Jun 11, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Solana in 2026: A Guide for Financial Institutions",
+   "snippet": "In 2026, the Solana roadmap focuses less on TPS and more on predictability, resilience, and fairness. \u200d. The concept of an Internet Capital Market encapsulates ...",
+   "url": "https://www.blockdaemon.com/blog/solana-in-2026-a-guide-for-financial-institutions",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Can Solana Become the Main Global Payments Network in ...",
+   "snippet": "Solana can become one of the main crypto payment networks in 2026, but it is unlikely to dominate traditional payment rails in the near term.",
+   "url": "https://bitcoinfoundation.org/news/altcoins/solana-main-global-payments-network/",
+   "date": "Jul 1, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana stablecoin payments 2026",
+   "title": "Payments Roundup: August 2026 : r/solana",
+   "snippet": "Western Union's Stablecard is live. Remittances can now arrive as stablecoins on Solana and be spent instantly anywhere Visa is accepted. Mobile ...",
+   "url": "https://www.reddit.com/r/solana/comments/1w7hnj0/payments_roundup_august_2026/",
+   "date": "1 week ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "What Are the Top Solana Restaking Protocols to Earn SOL ...",
+   "snippet": "What Are the 5 Best Solana Restaking Protocols of 2025? \u00b7 1. Jito (Re)staking \u00b7 2. Solayer \u00b7 3. Renzo Protocol \u00b7 4. Picasso Network \u00b7 5. Cambrian \u00b7 6.",
+   "url": "https://bingx.com/en/learn/article/what-are-the-top-solana-restaking-protocols-to-earn-sol-rewards",
+   "date": "Sep 2, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Staking",
+   "snippet": "Overview. Through an onchain governance process, Solana's community of validators voted to enable staking rewards and inflation, which are now live.",
+   "url": "https://solana.com/staking",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Restaking on Solana: The New Chapter Of A Long History",
+   "snippet": "This article covers the history of the restaking landscape and introduces the Jito (Re)staking platform - the first of its kind on the Solana ...",
+   "url": "https://www.jito.network/blog/restaking-on-solana-the-new-chapter/",
+   "date": "Aug 6, 2024"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Solana Staking 2026: Crouton Digital's Institutional-Grade ...",
+   "snippet": "As of June 2026, approximately 68% of the total SOL\u25bc$101.31 supply is staked \u2014 around 425\u2013432 million SOL. effective returns can reach 6\u20137%.",
+   "url": "https://bitcoinfoundation.org/news/opinion/solana-staking-2026-crouton-digitals-institutional-grade-solutions-for-maximizing-sol-yield/",
+   "date": "Jun 24, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Top 10 Solana Staking Statistics and Trends (2026) - Datawallet",
+   "snippet": "Around 421.8 million SOL is staked, or 68.3% of circulating supply, across roughly 791 active validators. The liquid staking ratio reached 17.6% ...",
+   "url": "https://www.datawallet.com/crypto/solana-staking-statistics-and-trends",
+   "date": "May 27, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Restaking on Solana (2025): The Comprehensive Guide",
+   "snippet": "Step 1: Choose a Wallet \u00b7 Step 2: Acquire SOL \u00b7 Step 3: Select a Restaking Service \u00b7 Step 4: Connect Your Wallet \u00b7 Step 5: Select Liquid Staking.",
+   "url": "https://www.kucoin.com/learn/crypto/restaking-on-solana-comprehensive-guide",
+   "date": "Oct 14, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Beyond HODLing: The 5 Best Liquid Staking Protocols in 2026",
+   "snippet": "In this video, we break down the 5 biggest liquid staking and restaking protocols dominating the market in 2026 across Ethereum, Solana, and ...",
+   "url": "https://www.youtube.com/watch?v=uR6OT4MT808",
+   "date": "2 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana restaking staking 2026",
+   "title": "Restaking Solana: A Comprehensive Guide to Maximizing ...",
+   "snippet": "Restaking is the latest innovation to storm the Solana ecosystem. Learn how to redeploy your staked SOL to achieve higher staking yields.",
+   "url": "https://solostakers.com/restaking-solana/",
+   "date": "Apr 30, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "Gaming",
+   "snippet": "Build the games of the future at the speed of the internet. Solana's high throughput and low fees make it a perfect fit for your masterpiece.",
+   "url": "https://solana.com/developers/gaming",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "List of 57 Web3 games on Solana (2026)",
+   "snippet": "A skill-based casual gaming platform on BNB Chain and Solana with solitaire, 8-ball pool, and tournaments paying out in PZP. BNB Chain logo.",
+   "url": "https://www.alchemy.com/dapps/list-of/web3-games-on-solana",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "Solana Ecosystem Roundup: June 2026",
+   "snippet": "Explore the June 2026 Solana ecosystem roundup covering tokenized SpaceX shares, $3B in RWAs, stablecoin settlement, DeFi growth, payments, and mobile.",
+   "url": "https://solana.com/news/solana-ecosystem-roundup-june-2026",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "Solana Says These Games Are Blowing Up Right Now, So I ...",
+   "snippet": "Solana just called out its hottest games right now, so I went over every single one to find out what they offer.",
+   "url": "https://www.youtube.com/watch?v=9-58bOkrFgk",
+   "date": "2 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "On-chain game on Solana- discussion : r/solana",
+   "snippet": "I'm doing a research about on-chain games in the Solana ecosystem. I would love if you could share which on-chain games you know and if you can ...",
+   "url": "https://www.reddit.com/r/solana/comments/1ajzjea/onchain_game_on_solana_discussion/",
+   "date": "2 years ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "5 Solana Games Blowing Up RIGHT NOW! March 2026",
+   "snippet": "In this video, we break down the top 5 blockchain games on Solana for March 2026, covering what each game plays like, what digital assets you ...",
+   "url": "https://playtoearn.com/news/5-solana-games-blowing-up-right-now-march-2026",
+   "date": "Mar 9, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "Top Web3 Game Projects (2026)",
+   "snippet": "SOL Arena is a competitive battle royale game on the Solana blockchain where players represent their communities, engaging in thrilling matches to defeat ...",
+   "url": "https://thegrid.id/discovery/productType/game",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana gaming on-chain 2026",
+   "title": "These 5 Solana Games Are Paying Players RIGHT NOW (July ...",
+   "snippet": "The Solana gaming scene is heating up fast, and these are the five play to earn games 2026 has players actually logging into right now.",
+   "url": "https://www.youtube.com/watch?v=w9Z2h6T13xU",
+   "date": "2 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Privacy on Solana Report",
+   "snippet": "Solana's composable privacy stack gives enterprises the full spectrum: encrypted balances, zero-knowledge anonymity, and multiparty confidential ...",
+   "url": "https://solana.com/reports/privacy-2026",
+   "date": "Mar 23, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Privacy Hack",
+   "snippet": "Build the future of privacy on Solana. Compete for prizes while creating privacy-preserving applications and tools. Sign UpResources.",
+   "url": "https://solana.com/privacyhack",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Privacy Is Finally Coming to Solana in 2026",
+   "snippet": "In January 2026, the Solana Foundation officially launched the Privacy Hack \u2014 a dedicated privacy hackathon in collaboration with Encode Club.",
+   "url": "https://medium.com/@trojantrading/privacy-is-finally-coming-to-solana-in-2026-and-the-infrastructure-is-already-live-c773048c8137",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Privacy on Solana: 2026",
+   "snippet": "On Solana, you choose your privacy level, from encrypted balances to zero-knowledge anonymity to multiparty confidential computing.",
+   "url": "https://xbjpr0reg4kgflon.public.blob.vercel-storage.com/reports/Privacy%20on%20Solana%20for%20the%20Modern%20Enterprise.pdf",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Solana Privacy Wallets & Payments: What Actually Works in 2026",
+   "snippet": "This video explains the practical privacy tools on Solana that reduce wallet tracking without destroying UX.",
+   "url": "https://www.youtube.com/watch?v=ZQCoIjd-bC0",
+   "date": "8 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Privacy on Solana | Confidential Transactions & Zero ...",
+   "snippet": "Solana supports several privacy models: public addresses, private amounts, unlinkable payments, and encrypted computation. 2026 Solana Foundation.",
+   "url": "https://solana.com/privacy",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Solana Launches Privacy Hackathon to Advance Confidential ...",
+   "snippet": "Solana launches Privacy Hack 2026, a global hackathon focused on zero-knowledge proofs, private payments, and compliant blockchain privacy ...",
+   "url": "https://genfinity.io/2026/01/09/solana-privacy-hack-2026/",
+   "date": "Jan 9, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana privacy 2026",
+   "title": "Solana in 2026: A Guide for Financial Institutions",
+   "snippet": "Order\u2010flow privacy: Roadmap work on private transaction flows to limit information leakage and predatory MEV. order\u2010flow privacy and application\u2010level control",
+   "url": "https://www.blockdaemon.com/blog/solana-in-2026-a-guide-for-financial-institutions",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Overview of Institutional Real World Assets on Solana",
+   "snippet": "As of late July 2026, Solana hosts $3.7 billion in non-stablecoin real-world asset value across 313K holders. What began as a negligible ...",
+   "url": "https://solana.com/news/overview-of-institutional-real-world-assets-on-solana",
+   "date": "Jul 30, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Real World Assets",
+   "snippet": "Real-world assets on Solana include tokenized treasuries, public-market funds, ETFs, commodities, and equities that can move through wallets, DeFi, ...",
+   "url": "https://solana.com/solutions/real-world-assets",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Solana RWA Hits a Record $3.4 Billion in 2026",
+   "snippet": "The value of tokenized real-world assets living on Solana reached a fresh all-time high of roughly $3.41 billion in July 2026, according to ...",
+   "url": "https://phemex.com/blogs/solana-tokenized-real-world-assets",
+   "date": "Jul 11, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Real World Assets on Solana: A Comprehensive Overview",
+   "snippet": "Solana's stablecoin supply was $16.3 billion in August 2026. USDC remains the dominant stablecoin, representing over 47% of the total supply, ...",
+   "url": "https://www.helius.dev/blog/solana-real-world-assets",
+   "date": "Jun 23, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "The Tokenization of Real World-Assets on Solana and ...",
+   "snippet": "join Jill Malandrino on Nasdaq TradeTalks to discuss the tokenization of real world-assets on Solana and democratizing access to finance. The $ ...",
+   "url": "https://www.youtube.com/watch?v=rIvkFFlhiXY",
+   "date": "12 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "RWA.xyz | Analytics on Tokenized Real-World Assets",
+   "snippet": "RWA.xyz provides analytics on Tokenized Real-World Assets. . Distributed Asset Value $38.89B. Solana 1,369 $4.3B",
+   "url": "https://app.rwa.xyz/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Solana's Real-World Assets Surpass $2B in Q1 2026",
+   "snippet": "The value of real-world assets (RWAs) on Solana climbed 43% in Q1 2026, surpassing the $2 billion mark for the first time and ending the ...",
+   "url": "https://www.linkedin.com/posts/cryptocom_the-value-of-real-world-assets-rwas-on-activity-7470807049480736768-HMxI",
+   "date": "3 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana RW real world assets 2026",
+   "title": "Solana is Helping to Revolutionize Real-World Assets in ...",
+   "snippet": "Solana is becoming a major participant in the tokenization of real-world assets (RWAs). It has the speed and scalability needed to enable ...",
+   "url": "https://www.htrnews.com/story/special/contributor-content/2025/12/16/solana-is-helping-to-revolutionize-real-world-assets-in-the-digital-landscape/87795394007/",
+   "date": "Dec 16, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Firedancer",
+   "snippet": "A new Solana validator client, built from the ground up for performance. This brings client diversity to the Solana network",
+   "url": "https://docs.firedancer.io/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Solana Firedancer in 2026: Client Diversity Explained \u2013 Ryder",
+   "snippet": "Firedancer is Solana's second validator client, live on mainnet in 2026. Here's what it fixes and what a self-custody SOL holder should take ...",
+   "url": "https://ryder.id/blogs/post/solana-firedancer-in-2026-client-diversity-explained?srsltid=AfmBOoriA0J3r3VaKgvx5UZYsx2T50iF-GUoDmwgFA2A-jQcaZKJQOFm",
+   "date": "Jul 3, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "What is Solana Firedancer [Guide for Solana Validators]",
+   "snippet": "Firedancer is a new, independent validator client for the Solana blockchain built by Jump Crypto. A validator client is the software a validator ...",
+   "url": "https://www.cherryservers.com/blog/solana-firedancer",
+   "date": "Oct 29, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Firedancer is Jump Crypto's Solana validator software.",
+   "snippet": "Firedancer is a new validator client for Solana. Fast Designed from the ground up to be fast. The concurrency model draws from experience in the low latency ...",
+   "url": "https://github.com/firedancer-io/firedancer",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Solana's Firedancer Validator Client Deep Dive",
+   "snippet": "Firedancer is a new independent validator client for the Solana blockchain, developed by Jump Crypto in collaboration with the Solana Foundation.",
+   "url": "https://www.blockdaemon.com/blog/solanas-firedancer-validator-client-deep-dive",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "What is Firedancer? Solana's new validator client explained",
+   "snippet": "Firedancer is Jump Crypto's from-scratch Solana validator client. Mid-2026 status, Frankendancer hybrid, tile architecture, 600K+ TPS live, ...",
+   "url": "https://rpcfast.com/blog/what-is-firedancer-solana-validator-client",
+   "date": "Jul 2, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Solana Changelog: July 23, 2026",
+   "snippet": "Solana engineering teams shipped new Agave and Firedancer versions, work forward across validator clients,",
+   "url": "https://solana.com/news/solana-changelog-july-23-2026",
+   "date": "Jul 23, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana validator client Firedancer 2026",
+   "title": "Firedancer on Solana: Project Review, Programs, Token, ...",
+   "snippet": "Firedancer is a validator client for Solana designed for speed, security, and independence. As of August 10, 2026, the full Firedancer client runs on 57 of 698 ...",
+   "url": "https://solanacompass.com/projects/Firedancer",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Solana Passkeys: The Future of Crypto Wallet UX",
+   "snippet": "Learn how to use passkeys on Solana to accelerate onboarding, eliminate the risk of losing seed phrases, and improve wallet UX.",
+   "url": "https://www.helius.dev/blog/solana-passkeys",
+   "date": "Jun 24, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Passkeys Foundation",
+   "snippet": "A passkey is a cryptographic key designed to replace passwords. With Passkeys, a user can easily create a wallet and complete a transaction,",
+   "url": "https://passkeys.foundation/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Build Frictionless Wallet UX on Solana with Passkeys",
+   "snippet": "Passkeys enable passwordless, seedless Solana wallet onboarding via secure, device-bound sessions. passkeys are used to authorize wallet ...",
+   "url": "https://blog.getpara.com/solana-passkeys/",
+   "date": "Jun 27, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "How to Authenticate Users with Solana Wallets Using ...",
+   "snippet": "This guide shows you how to build a Solana app with wallet authentication using Supabase. Users sign in with their Phantom or Solflare wallet.",
+   "url": "https://solana.com/developers/cookbook/wallets/supabase-auth",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Solana Wallets: Compare Features & Platforms",
+   "snippet": "Passkey wallet SDK for Solana apps with user-controlled signing, sponsored transaction fees, and scoped agent permissions limited by amount ...",
+   "url": "https://solana.com/wallets",
+   "date": "Sep 2, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "\"Native passkey and session key support is now live on @ ...",
+   "snippet": "Native passkey and session key support is now live on @solana. Both features will soon be available with the Smart Account API and Grid.",
+   "url": "https://x.com/multisig/status/1932910899859480744",
+   "date": "1 year ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Passkey Login & Smart Wallet Creation on Solana ...",
+   "snippet": "In this tutorial, you'll learn how to build a passwordless Solana wallet using LazorKit's passkey integration using biometric authentication ...",
+   "url": "https://dev.to/xavier_script/passkey-login-smart-wallet-creation-on-solana-with-nextjs-and-lazorkit-no-more-seed-phrases-1mbp",
+   "date": "Jan 6, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana passkey session key wallet",
+   "title": "Passkey Wallets Explained | Support - Eco",
+   "snippet": "Answer: A passkey is a WebAuthn credential, a public/private keypair generated and stored inside a hardware-backed secure element on your device ...",
+   "url": "https://eco.com/support/en/articles/15039720-passkey-wallets-explained",
+   "date": "May 26, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Solana Seeker Season 2 Guide: How to Maximize Airdrop ...",
+   "snippet": "In this video, we'll walk you through the four main categories of activity and give you tips on how to maximize your rewards for the upcoming ...",
+   "url": "https://www.youtube.com/watch?v=N7T2t9uY0Rs&vl=en",
+   "date": "7 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Solana leads airdrop season with new offers for 2025",
+   "snippet": "... Solana, has opened Season 3 for its airdrop activities. Kamino has five open quests, and has already been tested in two previous seasons.",
+   "url": "https://cryptorank.io/news/feed/86158-solana-leads-airdrop-season-2025",
+   "date": "Jan 2, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Latest in Wallet, NFT Marketplace, DeFi & DEX",
+   "snippet": "The airdrop is confirmed to be January 31, 2024, at the time of writing. It is assumed that swapping on Jupiter will increase points. After ...",
+   "url": "https://www.okx.com/help/okx-wallet-solana-super-season-airdrop-points-farming-guide",
+   "date": "Jan 19, 2024"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Airdrop & Token Distribution Platforms",
+   "snippet": "Airdropped stands out as a comprehensive airdrop discovery and distribution platform on Solana and other chains. The platform's innovative approach allows users ...",
+   "url": "https://solanacompass.com/projects/category/community/airdrops",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Ultimate Solana Airdrop Guide 2024",
+   "snippet": "Here are the Top 7 Airdrops on Solana to do right now. The material provided is for educational purposes only. Ultimate Solana Airdrop Guide ...",
+   "url": "https://www.youtube.com/watch?v=gPGDQyFEx74",
+   "date": "2 years ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Solana SOL Activities, Airdrops & Token Events",
+   "snippet": "Discover Solana SOL activities, including airdrops, fundraising, and token events. Price $101.35\u22120.34% Lend and borrow assets on the platform to earn points.",
+   "url": "https://dropstab.com/coins/solana/activities",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "Solana Mobile Surprises Users With SKR Token Airdrop",
+   "snippet": "More than 100,000 users and 188 developers are eligible to claim tokens. At launch prices, the airdrop was valued at roughly $26.6 million. ...",
+   "url": "https://finance.yahoo.com/news/solana-mobile-surprises-users-skr-123350720.html",
+   "date": "Jan 21, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana points season quest airdrop",
+   "title": "The Portal for All Things Seeker",
+   "snippet": "offering Solana Mobile Seeker holders \u2026 early access to its upcoming Airdrop Mode. a 1.5\u00d7 points multiplier, by reaching 1,500 points each week, players earn 1 ...",
+   "url": "https://solanafloor.com/seeker",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "Delivering superior trade execution with 0x RFQ",
+   "snippet": "RFQ is a cornerstone of our Swap API, seamlessly weaving together professional off-chain liquidity with onchain markets to deliver ...",
+   "url": "https://0x.org/post/delivering-superior-trade-execution-with-0x-rfq",
+   "date": "Sep 12, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "How RFQ systems power efficient DeFi swaps",
+   "snippet": "RFQ (#RequestForQuote) systems have become a popular mechanism for executing asset #swaps efficiently, offering better pricing, lower slippage, ...",
+   "url": "https://www.linkedin.com/posts/teodor-chiriac-8b7253169_defi-requestforquote-swaps-activity-7337454530940260352-Nk4Y",
+   "date": "1 year ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "Exploring the Impact of RFQ-Based DEXs on Solana",
+   "snippet": "This article explores how RFQ-based decentralized exchanges (DEXs) are changing the game on Solana, going beyond traditional liquidity pools ...",
+   "url": "https://medium.com/@rkmonarch/beyond-liquidity-pools-exploring-the-impact-of-rfq-based-dexs-on-solana-3b1d6ecabf65",
+   "date": "2 years ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "Intent-Based DEX Guide 2026 | Support - Eco",
+   "snippet": "An intent-based DEX accepts a signed outcome and lets solvers choose any execution path, including AMMs, orderbooks, RFQ desks, solver ...",
+   "url": "https://eco.com/support/en/articles/11852634-intent-based-dex-guide-2026",
+   "date": "Jul 8, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "RFQ1 Treatment for MAT Swap Leg of Specified",
+   "snippet": "MAT swap legs which are executed as part of specified types of Packages \u2026 must be executed on a Swap Execution Facility (SEF) will offer ...",
+   "url": "https://www.tradeweb.com/4a4ecc/globalassets/our-businesses/market-regulation/tw-sef-notice-packages-2.4.15-amend-4.30.15.pdf",
+   "date": "Feb 4, 2015"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "Ranger Launches All-In-One Spot Terminal, Powered By ...",
+   "snippet": "Trade smarter on Solana with Ranger's new all-in-one MetaDEX terminal\u2014aggregating top DEXs, intent layers, and RFQ relays for the best price, speed, ...",
+   "url": "https://www.rockawayx.com/insights/ranger-solana-metadex-terminal-launch",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "1inch launches Solana cross-chain swaps",
+   "snippet": "Seamless execution: intents make it easier to get the swap you want - just post your order and let resolvers compete to fill it.",
+   "url": "https://1inch.com/blog/post/1inch-solana-cross-chain-swaps",
+   "date": "Aug 19, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana intent RFQ protected swap execution",
+   "title": "Jupiter Exchange: Solana's Dex Aggregator - Shoal Research",
+   "snippet": "Solana is a Proof-of-Stake Layer 1 blockchain which optimizes for high performance and throughput, to deliver fast execution speeds and low ...",
+   "url": "https://www.shoal.gg/p/jupiter-exchange-solanas-dex-aggregator",
+   "date": "Jan 18, 2024"
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Token Extensions: Transfer Hook",
+   "snippet": "The Transfer Hook Interface provides a way for developers to implement custom instruction logic that is executed on every token transfer for a specific Mint ...",
+   "url": "https://solana.com/docs/tokens/extensions/transfer-hook",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Transfer, Transfer Checked, and Transfer Hook ...",
+   "snippet": "In referencing the Solana SPL Token and Token 2022 documentation, I am confused on if Token Extensions will affect compatibility of my token with ...",
+   "url": "https://solana.stackexchange.com/questions/22747/transfer-transfer-checked-and-transfer-hook-checked-token-2022-program-solana",
+   "date": "Jul 13, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Token Extensions | Solana",
+   "snippet": "For example, transfer hooks and confidential transfers do not currently work together. For that particular case, a fix is being developed and can be tracked ...",
+   "url": "https://solana.com/solutions/token-extensions",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "The 7 Solana Token Extensions Builders Are Quietly ...",
+   "snippet": "A practical, builder-first tour of Token-2022 features teams are using to ship fees, compliance, metadata, privacy, and \u201cfintech-like\u201d ...",
+   "url": "https://medium.com/@jickpatel611/the-7-solana-token-extensions-builders-are-quietly-adopting-55d6f8fd9999",
+   "date": "8 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Transfer Hook | Blockchain Security Glossary",
+   "snippet": "Solana audit guide for 2026 covering Firedancer finality risk, Token-2022 transfer hook reviews, localized DoS pressure, and what auditors check before launch.",
+   "url": "https://www.zealynx.io/glossary/transfer-hook",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Wisdom Uche Ijika's Post - Solana Transfer Hook Security",
+   "snippet": "One aspect of Solana's Token-2022 model that I think deserves considerably more attention is Transfer Hooks. A token transfer is normally ...",
+   "url": "https://www.linkedin.com/posts/wisdom-uche-ijika-3a0041151_solana-transfer-hook-security-how-token-activity-7503800664431702017-DtH-",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Understanding Solana Token Extensions",
+   "snippet": "The Transfer Hook extension executes a custom script automatically when the token is transferred. This can trigger complex or unexpected ...",
+   "url": "https://support.ledger.com/article/Solana-Token-Extensions",
+   "date": "May 13, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana token 2022 transfer hook compliance",
+   "title": "Transfer Hooks on Solana: Anchor 0.31 & Token-2022",
+   "snippet": "Deploying a Token-2022 Transfer Hook to Solana's Devnet requires a few specific configuration shifts to ensure both the Anchor framework and the ...",
+   "url": "https://andreyobruchkov1996.substack.com/p/transfer-hooks-on-solana-anchor-031",
+   "date": "Mar 18, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Quick Start",
+   "snippet": "Learn Solana development basics. Create your first program, understand accounts, send transactions, and explore PDAs and CPIs using Solana Playground - no ...",
+   "url": "https://solana.com/docs/intro/quick-start",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Build Your First Solana Program",
+   "snippet": "You will create the project locally, run its tests, build the program, and walk through the program code that Anchor generates.",
+   "url": "https://solana.com/docs/intro/quick-start/build-first-program",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Solana",
+   "snippet": "August 27, 2026 V1 Transactions are approaching, while a 300ms slot-time feature gate reached Mainnet and new releases shipped across Solana tooling. comes to ...",
+   "url": "https://solana.com/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Raising the Bar on Solana Ecosystem Security",
+   "snippet": "Asymmetric Research and Solana Foundation today announced STRIDE, a structured program for evaluating, monitoring, and escalating security ...",
+   "url": "https://solana.com/news/solana-ecosystem-security",
+   "date": "Apr 6, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Solana Changelog: July 16, 2026",
+   "snippet": "The ed25519 programmatic signer program project is starting to flesh out functionality with its nonce program. The project is similar to ...",
+   "url": "https://solana.com/news/solana-changelog-july-16-2026",
+   "date": "Jul 16, 2026"
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Solana Network Upgrades",
+   "snippet": "Agave 4.2 ; Agave 4.2 Release Overview. Cheaper rent, larger transactions, and faster slots \u2014 with Alpenglow on deck. 90%. Rent reduction, phased over 5 steps.",
+   "url": "https://solana.com/upgrades",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Solana Projects | Browse by Category",
+   "snippet": "Browse the top Solana Projects being built today. Find the best Solana apps, wallets, tools, and more on Soladex, the community powered Solana index.",
+   "url": "https://www.soladex.io/projects",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "solana new program launch",
+   "title": "Grants and Funding | Solana: Build crypto apps that scale",
+   "snippet": "Superteam offers quick microgrants ($10k) to early-stage Solana builders in emerging markets like India, Southeast Asia, Eastern Europe, and Africa.",
+   "url": "https://solana.org/grants-funding",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Solana Ecosystem Report (H1 2025) \u2014 Earnings & Growth",
+   "snippet": "Messari's State of Helium Q1 2025 report noted that offloaded data has reached 1,140.9 TB, representing a 138.6% quarter-on-quarter increase.",
+   "url": "https://www.helius.dev/blog/solana-ecosystem-report-h1-2025",
+   "date": "Jul 1, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Helius on Privacy's Next Wave: Zcash, Solana, & Future of ...",
+   "snippet": "Helius on Privacy's Next Wave: Zcash, Solana, & Future of Onchain Markets | with Messari Research. @Messari29 likes841 views10 months ago more.",
+   "url": "https://www.youtube.com/watch?v=cIXPIR364q4",
+   "date": "10 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Solana (SOL) Portal: News, Insights, Announcements - Messari",
+   "snippet": "Helius has acquired Light Protocol to build the canonical privacy layer for Solana, enhancing privacy features on the network.",
+   "url": "https://solana.messari.io/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Messari Protocol Services Launches Solana Portal ...",
+   "snippet": "The Solana Portal is the first in a series of ecosystem portals, delivering institutional-grade qualitative and quantitative insights, ...",
+   "url": "https://www.prnewswire.com/news-releases/messari-protocol-services-launches-solana-portal-delivering-the-ultimate-resource-for-in-depth-ecosystem-analysis-302310651.html",
+   "date": "Nov 20, 2024"
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "\"Messari State of Solana Q1 2026 report is now live TLDR? ...",
+   "snippet": "Messari State of Solana Q1 2026 report is now live TLDR? RWAs up +43% to $2B and Solana now settles nearly half of stablecoin volume across ...",
+   "url": "https://x.com/solana/status/2056987194469015863",
+   "date": "3 months ago"
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Helius - Solana's Leading RPC and API Platform",
+   "snippet": "Helius is Solana's leading infrastructure provider and developer platform, purpose-built by a Solana-native team with deep protocol expertise.",
+   "url": "https://www.helius.dev/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Solana | Research Reports",
+   "snippet": "Research reports on Solana by Messari Analysts. Access Enterprise-level insights on ETH and BTC pages for free. State of Solana Q1",
+   "url": "https://messari.io/project/solana/research",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "helius messari solana report",
+   "title": "Analyzing Solana On-chain Data: Tools & Dashboards",
+   "snippet": "This guide gives new analysts an overview of tools for accessing Solana data including tools for streaming data, historical analysis, ...",
+   "url": "https://www.helius.dev/blog/solana-data-tools",
+   "date": "Feb 18, 2025"
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Developer Report: Analysis of Open-Source Crypto ...",
+   "snippet": "The Developer Report is a free, open, analysis of open-source contributions in crypto. We analyze over 100M open source code commits to produce these ...",
+   "url": "https://www.developerreport.com/",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Analysis of Open-Source Crypto Developers by Electric ...",
+   "snippet": "Analysis. From 2018 to 2024, Electric Capital published annual developer reports providing comprehensive analysis of open-source crypto developer activity.",
+   "url": "https://www.developerreport.com/developer-report",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Crypto Developer Geography Trends",
+   "snippet": "The Developer Report is a free, open, analysis of open-source contributions in crypto ... Built by Electric Capital Partners, LLC. Data partners: Allium. Explore ...",
+   "url": "https://www.developerreport.com/geography",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Electric Capital Developer Report - Solana",
+   "snippet": "Total monthly active developers \u00b7 The chart has 1 Y axis displaying values. Data ranges from 0 to 7694. \u00b7 Total monthly active developers ; Active developers by ...",
+   "url": "https://www.developerreport.com/ecosystems/solana",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Electric Capital's Developer Report shows Solana as the # ...",
+   "snippet": "Electric Capital's annual report takes a look at developer growth in the crypto industry, measured by the number of open source repositories.",
+   "url": "https://x.com/solana/status/1867293400388841604",
+   "date": "1 year ago"
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Electric Capital 2024 Developer Report Full...",
+   "snippet": "Ethereum ranks first in the U.S., U.K., China, and Canada, and second in India. Solana ranks first in India and second elsewhere. Base ranks ...",
+   "url": "https://www.chaincatcher.com/en/article/2156880",
+   "date": "Dec 13, 2024"
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Electric Capital Developer Reports",
+   "snippet": "Electric Capital Developer Reports. Contribute to electric-capital/developer-reports development by creating an account on GitHub.",
+   "url": "https://github.com/electric-capital/developer-reports",
+   "date": ""
+  },
+  {
+   "lane": "search",
+   "query": "electric capital crypto developer report solana",
+   "title": "Solana surpasses Ethereum as fastest growing crypto ...",
+   "snippet": "A new developer report from venture firm Electric Capital found Solana is the number one blockchain for new developers.",
+   "url": "https://www.theblock.co/news/business/2024-12-12-electric-capital-report-shows-solana-as-the-top-ecosystem-for-new-developers-in-2024-330627",
+   "date": "Dec 12, 2024"
+  }
+ ],
+ "onchain": [
+  {
+   "lane": "onchain",
+   "key": "pump_fun",
+   "sample_tx": 30,
+   "window_sec": 1,
+   "tx_per_sec": 30.0,
+   "latest_blocktime": 1789443343
+  },
+  {
+   "lane": "onchain",
+   "key": "raydium_amm_v4",
+   "sample_tx": 30,
+   "window_sec": 1,
+   "tx_per_sec": 30.0,
+   "latest_blocktime": 1789443345
+  },
+  {
+   "lane": "onchain",
+   "key": "spl_token_2022",
+   "sample_tx": 30,
+   "window_sec": 1,
+   "tx_per_sec": 30.0,
+   "latest_blocktime": 1789443347
+  }
+ ],
+ "_meta": {
+  "collected_at": "2026-09-15T03:35:28.055421+00:00",
+  "sources": [
+   {
+    "name": "Solana Foundation news",
+    "url": "https://solana.com/news"
+   },
+   {
+    "name": "Helius blog",
+    "url": "https://www.helius.dev/blog"
+   },
+   {
+    "name": "Messari Solana research",
+    "url": "https://messari.io/protocol/solana"
+   },
+   {
+    "name": "Electric Capital dev report",
+    "url": "https://www.electriccapital.com/reports"
+   }
+  ],
+  "counts": {
+   "github": 40,
+   "search": 128,
+   "onchain": 3
+  }
+ }
+}
